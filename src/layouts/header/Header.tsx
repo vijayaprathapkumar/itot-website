@@ -120,12 +120,11 @@ const NavBarComponent = ({
       <NavBar onMouseLeave={handleServiceMouseLeave}>
         <LogoWrapper>
           <Image
-            src="/images/logo/genpixels.png"
+            src="/images/logo/itot-logo.png"
             alt="Logo"
-            width={100}
-            height={100}
+            width={70}
+            height={70}
           />
-          <HeadingName href={"/"}>enpixels</HeadingName>
           <MenuIcon>
             <IoIosMenu onClick={toggleDrawer(true)} />
           </MenuIcon>
@@ -178,7 +177,7 @@ const NavBarComponent = ({
         <Box display="flex" alignItems="center" gap={2}>
           <SearchIconWrapper display="flex" alignItems="center" gap={-2}>
             <IconButton onClick={handleSidebarToggle}>
-              <PiDotsNineBold size={30} color="#051634" />
+              <PiDotsNineBold size={30} color="#fff" />
             </IconButton>
           </SearchIconWrapper>
 
