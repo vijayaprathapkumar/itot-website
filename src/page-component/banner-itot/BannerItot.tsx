@@ -1,22 +1,17 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 
-import { Box } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 import {
-  DescriptionTypo,
-  GenBox,
-  ImageDot,
-  ImageDotBox,
-  LinkingBorder,
+  ButtonStarted,
+  ContentBox,
+  DescriptionText,
+  ImageBanner,
   MainBannerBox,
-  MainHeadTypo,
-  RotateImage,
-  StackBanner,
-  SubDetailsBox,
-  SubDetailsTypo,
-  TypoDesc,
+  TitleHead,
 } from "./BannerItot.styled";
+import Image from "next/image";
 
 export const icons = [{ src: "/images/banner/hubspot.png", alt: "HubSpot" }];
 
@@ -47,86 +42,21 @@ const BannerItot = () => {
 
   return (
     <MainBannerBox ref={sectionRef} className={isVisible ? "animate" : ""}>
-      <StackBanner>
-        <Box>
-          <ImageDotBox>
-            <ImageDot
-              src="/images/whoweare/about-two-dot.png"
-              alt="shape"
-              height={120}
-              width={50}
-            />
-          </ImageDotBox>
-          <GenBox>
-            <RotateImage
-              src="/images/logo/genpixels.png"
-              alt="Dashboard"
-              height={600}
-              width={600}
-            />
-          </GenBox>
-          <LinkingBorder></LinkingBorder>
-          <SubDetailsBox>
-            <Box>
-              <SubDetailsTypo variant="h6">ITOT</SubDetailsTypo>
-              <TypoDesc variant="body1">
-                ITOT merges IT and OT in industrial settings to improve
-                communication, efficiency, and decision-making. It enhances
-                productivity, reduces downtime, and optimizes operational
-                performance.
-              </TypoDesc>
-            </Box>
-          </SubDetailsBox>
-        </Box>
-        {/* <Box>
-          <MainSpinBox>
-            <RotatingContainer>
-              {icons.map((icon, index) => {
-                return (
-                  <RotateBox
-                    key={index}
-                    src={icon.src}
-                    alt={icon.alt}
-                    height={90}
-                    width={90}
-                  />
-                );
-              })}
-            </RotatingContainer>
-            <DashboardBox>
-              <RotateImage
-                src="/images/logo/genpixels.png"
-                alt="Dashboard"
-                height={600}
-                width={600}
-
-              />
-            </DashboardBox>
-          </MainSpinBox>
-        </Box> */}
-        <Box>
-          <Box>
-            <MainHeadTypo variant="h4">Mission</MainHeadTypo>
-          </Box>
-          <Box>
-            <DescriptionTypo variant="body1">
-              We aim to lead globally in tech and marketing by offering
-              tailored, value-driven solutions that bridge business and
-              technology.
-            </DescriptionTypo>
-          </Box>
-          <Box>
-            <MainHeadTypo variant="h4">Vision</MainHeadTypo>
-          </Box>
-          <Box>
-            <DescriptionTypo variant="body1">
-              Our Vision is to empower individuals and organizations with
-              innovative digital marketing strategies and IT solutions that
-              promote growth and build connection.
-            </DescriptionTypo>
-          </Box>
-        </Box>
-      </StackBanner>
+      <ContentBox>
+        <TitleHead variant="h2">Better Solutions For Your Business</TitleHead>
+        <DescriptionText variant="body1">
+          We are team of talented designers making websites with Bootstrap
+        </DescriptionText>
+        <ButtonStarted variant="contained">Get Started</ButtonStarted>
+      </ContentBox>
+      <Box>
+        <ImageBanner
+          src="/images/banner/hero-img.png"
+          alt="banner"
+          height={300}
+          width={300}
+        />
+      </Box>
     </MainBannerBox>
   );
 };
