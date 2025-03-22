@@ -269,7 +269,7 @@ export const TypoSubtitle = styled(Typography)`
 `;
 export const IconAdaptive = styled(LuRefreshCw)`
   font-size: 35px;
-  color: darkblue;
+  color: dark#255778;
   ${breakpoints.xs} {
     font-size: 20px;
   }

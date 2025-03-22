@@ -6,7 +6,7 @@ import Link from "next/link";
 
 // Top Bar Styles
 export const TopBar = styled(Box)`
-  background-color: #051634;
+  background-color: #255778;
   padding: 15px 5%;
   display: flex;
   justify-content: space-between;
@@ -187,7 +187,7 @@ export const NavItem = styled(Box)`
   transition: color 0.3s ease;
   font-family: "Poppins", sans-serif;
   &:hover {
-    color: blue;
+    color: #255778;
   }
 
   &:active {
@@ -237,7 +237,7 @@ export const CallBoxWrapper = styled(Box)`
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-color: #255778;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -261,7 +261,7 @@ export const SideBarWrapper = styled(Box)`
 export const SideBarIconWrapper = styled(Box)`
   width: 400px;
   height: 100vh;
-  background: #051634;
+  background: #255778;
   color: white;
   box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -365,7 +365,7 @@ export const StyledLink = styled(Link)`
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
   &:hover {
-    color: blue;
+    color: #255778;
   }
  
   ${breakpoints.xs} {

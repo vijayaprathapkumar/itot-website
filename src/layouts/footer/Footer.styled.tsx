@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const ContainerBox = styled(Box)`
   padding: 0 5%;
-  background-color: #051634;
+  background-color: #255778;
   background-image: url(/images/footer/footer.png);
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -93,7 +93,7 @@ export const ParaStyle = styled(Typography)`
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color: blue;
+  background-color: #255778;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ export const NumberTypoStyled = styled(Typography)`
   color: white;
   fontsize: 18px;
   &:hover {
-    color: blue;
+    color: #255778;
     transition: 0.3s ease-in-out;
   }
       font-family: "Poppins", sans-serif;
@@ -163,7 +163,7 @@ font-family: "Poppins", sans-serif;
 `;
 export const ArrowIconStyle = styled(MdKeyboardDoubleArrowRight)`
   font-size: 18px;
-  color: blue;
+  color: #255778;
   position: relative;
   top: 3px;
   ${breakpoints.xs} {
@@ -193,7 +193,7 @@ export const StyledLink = styled(Link)`
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
   &:hover {
-    color: blue;
+    color: #255778;
   }
  
   ${breakpoints.xs} {
@@ -241,7 +241,7 @@ export const IconLists = styled("li")`
   border-radius: 5px;
   transition: 0.3s ease-in-out;
   &:hover {
-    background-color: blue;
+    background-color: #255778;
   }
 `;
 
@@ -295,7 +295,7 @@ export const LinkBox = styled(Link)`
   cursor: pointer;
   transition: 0.3s ease-in-out;
   &:hover {
-    color: blue;
+    color: #255778;
   }
   ${breakpoints.xs} {
     font-size: 16px;

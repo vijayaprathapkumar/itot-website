@@ -151,7 +151,7 @@ const Footer = () => {
         <FooterStep>
           <CopyrightTypo>
             Copyright {new Date().getFullYear()} - All Rights Reserved By -{" "}
-            <Link sx={{ color: "blue", cursor: "pointer" }} href="#">
+            <Link sx={{ color: "#255778", cursor: "pointer" }} href="#">
               Genpixels Tech Pvt Ltd
             </Link>
           </CopyrightTypo>

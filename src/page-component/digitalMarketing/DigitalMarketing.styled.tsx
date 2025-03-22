@@ -85,13 +85,13 @@ export const ServiceItem = styled(Box)`
   }
 
   &:hover {
-    background-color: blue;
+    background-color: #255778;
     color: white;
   }
 
   &:hover .arrow {
     background-color: white;
-    color: blue;
+    color: #255778;
   }
 
   ${breakpoints.xs} {

@@ -29,7 +29,7 @@ export const MainHeadTypo = styled(Typography)`
   margin-top: 15px;
   font-weight: 700;
   font-size: 45px;
-  color: #051634;
+  color: #255778;
   opacity: 0;
   transform: translatex(50px);
   transition: opacity 0.5s ease-out, transform 0.5s ease-out;
@@ -347,7 +347,7 @@ export const GenBox = styled(Box)`
 `;
 
 export const SubDetailsBox = styled(Box)`
-  background: #051634;
+  background: #255778;
   position: relative;
   left: 390px;
   top: -30px;
@@ -373,7 +373,7 @@ export const SubDetailsBox = styled(Box)`
     transform: translateY(-50%);
     border-style: solid;
     border-width: 100px 0 100px 60px;
-    border-color: transparent transparent transparent #051634;
+    border-color: transparent transparent transparent #255778;
   }
   ${breakpoints.xs} {
     left: 65px;

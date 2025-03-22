@@ -164,7 +164,7 @@ export const ImageStyled = styled("img")`
 `;
 
 export const ServiceItem = styled(Box)<{ selected: boolean }>`
-  background-color: ${({ selected }) => (selected ? "blue" : "#ffffff")};
+  background-color: ${({ selected }) => (selected ? "#255778" : "#ffffff")};
   color: ${({ selected }) => (selected ? "white" : "#101c2a")};
   font-weight: 600;
   font-size: 18px;
@@ -187,13 +187,13 @@ export const ServiceItem = styled(Box)<{ selected: boolean }>`
   }
 
   &:hover {
-    background-color: blue;
+    background-color: #255778;
     color: white;
   }
 
   &:hover .arrow {
     background-color: white;
-    color: blue;
+    color: #255778;
   }
 
   ${breakpoints.xs} {
@@ -252,7 +252,7 @@ export const ArrowBox = styled(Box)<{ selected: boolean }>`
   border-radius: 10px;
   transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
   background-color: ${({ selected }) => (selected ? "white" : "transparent")};
-  color: ${({ selected }) => (selected ? "blue" : "#101c2a")};
+  color: ${({ selected }) => (selected ? "#255778" : "#101c2a")};
 
   ${breakpoints.xs} {
     width: 30px;
