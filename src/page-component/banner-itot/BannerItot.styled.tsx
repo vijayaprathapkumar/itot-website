@@ -8,23 +8,24 @@ export const MainBannerBox = styled(Box)`
   background: rgb(55, 81, 126);
   display: flex;
   gap: 240px;
+  margin-top: -90px;
   ${breakpoints.xs} {
     flex-direction: column;
     gap: 100px;
   }
   ${breakpoints.sm} {
     flex-direction: row;
-    padding: 0 2%;
+    padding: 50px 2%;
   }
   ${breakpoints.md} {
-    padding: 0 3%;
+    padding: 50px 3%;
   }
   ${breakpoints.lg} {
     padding: 100px 4%;
     gap: 140px;
   }
   ${breakpoints.xl} {
-    padding: 10px 5%;
+    padding: 70px 5%;
     gap: 140px;
   }
 `;
@@ -100,16 +101,20 @@ export const ImageBanner = styled(Image)`
   }
   ${breakpoints.lg} {
     height: 500px;
+    width: 500px;
+  }
+  ${breakpoints.xl} {
+    height: 500px;
     width: 700px;
   }
 `;
 export const ContentBox = styled(Box)`
   margin-top: 100px;
   ${breakpoints.sm} {
-    margin-top: 50px;
+    margin-top: 80px;
   }
   ${breakpoints.md} {
-    margin-top: 100px;
+    margin-top: 130px;
   }
 `;
 
