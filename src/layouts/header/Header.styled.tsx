@@ -99,9 +99,6 @@ export const NavBar = styled(Box)`
   display: flex;
   align-items: center;
   padding: 0px 5%;
-  background: white;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  border-bottom: 2px solid #e0e0e0;
   transition: background-color 0.3s ease;
   opacity: 0;
   transform: translatex(-50px);
@@ -110,10 +107,6 @@ export const NavBar = styled(Box)`
   .animate & {
     opacity: 1;
     transform: translateY(0);
-  }
-
-  &:hover {
-    background-color: #f8f8f8;
   }
 
   ${breakpoints.xs} {
@@ -149,7 +142,7 @@ export const LogoWrapper = styled(Box)`
   align-items: center;
   gap: 10px;
   margin-right: 20px;
-
+  padding: 10px;
   ${breakpoints.xs} {
     margin-left: -25px;
   }
@@ -157,7 +150,7 @@ export const LogoWrapper = styled(Box)`
     margin-left: -40px;
   }
   ${breakpoints.md} {
-    margin-left: -30px;
+    margin-left: -10px;
   }
 `;
 
@@ -173,7 +166,7 @@ export const HeadingName = styled(Link)`
 
 export const NavLink = styled(Link)`
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-weight: 800;
 `;
 
@@ -207,7 +200,7 @@ export const MenuIcon = styled(Box)`
   position: absolute;
   right: 20px;
   font-size: 40px;
-
+  color: #fff;
   ${breakpoints.xs} {
     display: block;
   }
