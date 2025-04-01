@@ -43,7 +43,8 @@ const fadeUpBorderBefore = keyframes`
 `;
 
 export const MainWrapper = styled(Box)`
-  background-color: #16142c;
+  background-color:  rgb(55, 81, 126);
+  margin-top: 30px;
 `;
 export const ShapeImage = styled(Image)`
   position: absolute;
@@ -89,7 +90,7 @@ export const WhyChooseUsAreBox = styled(Box)`
   }
 `;
 export const WhyChooseUsAreTypo = styled(Typography)`
-  color: #3c72fc;
+  color:rgb(20, 84, 244);
   font-size: 25px;
   font-weight: 500;
   margin-top: -10px;

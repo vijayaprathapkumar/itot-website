@@ -8,7 +8,7 @@ export const MainBannerBox = styled(Box)`
   background: rgb(55, 81, 126);
   display: flex;
   gap: 240px;
-  margin-top: -90px;
+  margin-top: -96px;
   ${breakpoints.xs} {
     flex-direction: column;
     gap: 100px;

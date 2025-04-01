@@ -63,7 +63,7 @@ export const Overlay = styled(Box)`
 `;
 
 export const ViewAllButton = styled(Button)`
-  background: linear-gradient(90deg, #3c72fc -10.59%, #00060c 300.59%);
+  background: linear-gradient(90deg, rgb(55, 81, 126) -10.59%, #00060c 300.59%);
   color: white;
   padding: 15px 25px;
   text-transform: none;

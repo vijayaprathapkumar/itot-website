@@ -298,7 +298,7 @@ export const WhoWeAreBox = styled(Box)`
   }
 `;
 export const WhoWeAreTypo = styled(Typography)`
-  color: #3c72fc;
+  color: rgb(55, 81, 126);
   font-size: 25px;
   font-weight: 500;
   margin-top: -10px;
@@ -366,7 +366,7 @@ export const DescriptionTypo = styled(Typography)`
   }
 `;
 export const CircleCheckIcon = styled(FaCircleCheck)`
-  color: #004b93;
+  color: rgb(55, 81, 126);
   font-size: 25px;
   opacity: 0;
   transform: translateY(50px);

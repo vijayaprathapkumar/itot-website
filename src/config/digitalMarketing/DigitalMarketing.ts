@@ -47,8 +47,8 @@ export const digitalMarketingData: Record<
     image: "/images/digitalMarketing/wd.jpg",
     title: "Website Design",
     description:
-      "Website design services aim to create visually beautiful, user-friendly, and functioning websites.  These services involve creating the layout, structure, visuals, and navigation so that visitors have an interesting and intuitive experience.  They frequently include responsive design, SEO optimization, and the incorporation of corporate identity to improve user interaction and achieve business objectives.  A professional website design service, whether for a small or large organization, attempts to ",
-    video: "/images/digitalMarketing/#255778 Corporate Development Process Steps Graph.mp4"
+      "Website design services aim to create visually beautiful, user-friendly, and functioning websites. These services involve creating the layout, structure, visuals, and navigation so that visitors have an interesting and intuitive experience. They frequently include responsive design, SEO optimization, and the incorporation of corporate identity to improve user interaction and achieve business objectives. A professional website design service, whether for a small or large organization, attempts to establish a strong online presence and increase user interaction. ",
+    video: "/images/digitalMarketing/Blue Corporate Development Process Steps Graph.mp4"
   },
 };
 

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 // Top Bar Styles
 export const TopBar = styled(Box)`
-  background-color: #255778;
+  background-color: rgb(55, 81, 126);
   padding: 15px 5%;
   display: flex;
   justify-content: space-between;
@@ -104,6 +104,8 @@ export const NavBar = styled(Box)`
   transform: translatex(-50px);
   transition: opacity .5s ease-out, transform .5s ease-out;
   justify-content: space-between;
+  background-color: rgb(55, 81, 126);
+  margin-top: 2px;
   .animate & {
     opacity: 1;
     transform: translateY(0);
@@ -180,7 +182,7 @@ export const NavItem = styled(Box)`
   transition: color 0.3s ease;
   font-family: "Poppins", sans-serif;
   &:hover {
-    color: #255778;
+    color:  rgb(55, 81, 126);
   }
 
   &:active {
@@ -230,7 +232,7 @@ export const CallBoxWrapper = styled(Box)`
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color: #255778;
+  background-color:  rgb(55, 81, 126);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -254,7 +256,7 @@ export const SideBarWrapper = styled(Box)`
 export const SideBarIconWrapper = styled(Box)`
   width: 400px;
   height: 100vh;
-  background: #255778;
+  background:  rgb(55, 81, 126);
   color: white;
   box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -275,7 +277,7 @@ export const SideBarLogoWrapper = styled(Box)`
   display: flex;
   align-items: center;
   gap: 10px;
-  margin-left: -24px;
+  margin-left: 0px;
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
@@ -358,7 +360,7 @@ export const StyledLink = styled(Link)`
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
   &:hover {
-    color: #255778;
+    color:  rgb(55, 81, 126);
   }
  
   ${breakpoints.xs} {

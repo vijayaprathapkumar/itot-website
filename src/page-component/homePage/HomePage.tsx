@@ -5,17 +5,14 @@ import WhyChooseUs from "../whychooseus/WhyChooseUs";
 import Digital from "../digital/Digital";
 import BannerItot from "../banner-itot/BannerItot";
 
-
 const HomePage = () => {
   return (
     <>
       <BannerItot />
-      <WhyChooseUs />
       <BannerTemplate />
       <Digital />
       {/* <Banner /> */}
       <Process />
-
     </>
   );
 };

@@ -24,7 +24,7 @@ export const ImagesStyled = styled(Image)`
   margin-top: 9px;
 `;
 export const HeadingTypo = styled(Typography)`
-  color: #3b71ca;
+  color:  rgb(55, 81, 126);
   font-size: 20px;
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
@@ -59,7 +59,7 @@ export const BadgeStyle = styled(Box)`
   position: absolute;
   top: 0px;
   left: 60px;
-  background-color: #3b71ca;
+  background-color:  rgb(55, 81, 126);
   color: white;
   width: 40px;
   height: 40px;
@@ -109,7 +109,7 @@ export const ImageContainer = styled(Box)`
     left: 0;
     width: 100%;
     height: 100%;
-    border: 2px dotted #3b71ca;
+    border: 2px dotted  rgb(55, 81, 126);
     border-radius: 50%;
     animation: spin 30s linear infinite;
   }

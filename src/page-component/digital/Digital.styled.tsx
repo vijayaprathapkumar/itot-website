@@ -26,7 +26,7 @@ export const MainHeadTypo = styled(Typography)`
   margin-top: 15px;
   font-weight: 500;
   font-size: 40px;
-  color: dark#255778;
+  color: rgb(55, 81, 126);
   opacity: 0;
   transform: translatex(50px);
   transition: opacity 1s ease-out, transform 1s ease-out;
@@ -152,7 +152,7 @@ export const CardBox = styled(Box)`
   }
 `;
 export const ServiceTypo = styled(Typography)`
-  color: sky#255778;
+  color: rgb(55, 81, 126);
   font-size: 20px;
   font-weight: 700;
   opacity: 0;

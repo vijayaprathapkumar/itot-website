@@ -63,12 +63,11 @@ const Footer = () => {
           <YAxisPlusAnimateBox>
             <LogoStyle>
               <ImageStyle
-                src="/images/footer/logo.png"
+                src="/images/logo/itot-logo.png"
                 alt="No logo"
                 height={80}
                 width={80}
               />
-              <LogoTypoStyle>enpixels</LogoTypoStyle>
             </LogoStyle>
             {/* <ParaStyle>
               Your trusted partner in Genpixels Tech Pvt Ltd
@@ -151,7 +150,7 @@ const Footer = () => {
         <FooterStep>
           <CopyrightTypo>
             Copyright {new Date().getFullYear()} - All Rights Reserved By -{" "}
-            <Link sx={{ color: "#255778", cursor: "pointer" }} href="#">
+            <Link sx={{ color: "", cursor: "pointer" }} href="#">
               Genpixels Tech Pvt Ltd
             </Link>
           </CopyrightTypo>
