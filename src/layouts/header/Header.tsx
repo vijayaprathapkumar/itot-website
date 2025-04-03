@@ -59,13 +59,13 @@ const TopBarComponent = () => {
     <TopBar>
       <TopBarBox>
         <TopBarBoxItem>
-          <FaPhone size={20} color="#255778" style={{ marginTop: 2 }} />
+          <FaPhone size={20} color="#fff" style={{ marginTop: 2 }} />
           <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
             +91 8940030201
           </Typography>
         </TopBarBoxItem>
         <TopBarMailItem>
-          <IoMail size={20} color="#255778" style={{ marginTop: 2 }} />
+          <IoMail size={20} color="#fff" style={{ marginTop: 2 }} />
           <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
             info@genpixels.com
           </Typography>
@@ -119,12 +119,14 @@ const NavBarComponent = ({
     <>
       <NavBar onMouseLeave={handleServiceMouseLeave}>
         <LogoWrapper>
-          <Image
-            src="/images/logo/itot-logo.png"
-            alt="Logo"
-            width={70}
-            height={70}
-          />
+          <Link href="/">
+            <Image
+              src="/images/logo/itot-logo.png"
+              alt="Logo"
+              width={70}
+              height={70}
+            />
+          </Link>
           <MenuIcon>
             <IoIosMenu onClick={toggleDrawer(true)} />
           </MenuIcon>
@@ -186,7 +188,7 @@ const NavBarComponent = ({
               <BiPhoneCall size={30} color="white" />
             </CallIconWrapper>
             <Box display="flex" flexDirection="column">
-              <Typography variant="body2" fontWeight="bold" color="#255778">
+              <Typography variant="body2" fontWeight="bold" color="rgb(55, 81, 126)">
                 Make a call
               </Typography>
               <Typography
@@ -209,7 +211,7 @@ const NavBarComponent = ({
         open={openDrawer}
         onClose={toggleDrawer(false)}
         sx={{
-          "& .MuiPaper-root": { backgroundColor: "#255778" },
+          "& .MuiPaper-root": { backgroundColor: "rgb(55, 81, 126)" },
         }}
       >
         <Box sx={{ width: 350 }} role="presentation">
@@ -223,17 +225,11 @@ const NavBarComponent = ({
             >
               <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Image
-                  src="/images/logo/genpixels.png"
+                  src="/images/logo/itot-logo.png"
                   alt="Logo"
                   width={90}
                   height={90}
                 />
-                <HeadingName
-                  href={"/"}
-                  sx={{ color: "white", marginLeft: "-11px" }}
-                >
-                  enpixels
-                </HeadingName>
               </Box>
               <Box
                 sx={{
@@ -360,27 +356,26 @@ const SideBarComponent = ({
             >
               <SideBarLogoWrapper>
                 <Image
-                  src="/images/logo/genpixels.png"
+                  src="/images/logo/itot-logo.png"
                   alt="Logo"
                   width={100}
                   height={100}
                 />
-                <SideBarHeadingName>enpixels</SideBarHeadingName>
               </SideBarLogoWrapper>
               <SideBarContent variant="body1">
-                Genpixels is a software development and digital marketing
+                ITOT is a software development and digital marketing
                 company, delivering customized digital solutions for businesses
                 worldwide.
               </SideBarContent>
               <Box sx={{ marginTop: "20px" }}>
-                <hr style={{ border: "1px solid white", width: "100%" }} />
+                <hr style={{ border: "1px solid #fff", width: "100%" }} />
               </Box>
               <ContactWrapper>
                 <ContactHeading variant="h5">Get In Touch</ContactHeading>
 
                 <ContactIconWrapper>
                   <Box display="flex">
-                    <BiPhoneCall size={45} color="#255778" />
+                    <BiPhoneCall size={45} color="#fff" />
                     <Box display="flex" flexDirection="column" marginLeft={1}>
                       <Typography
                         variant="body1"
@@ -405,7 +400,7 @@ const SideBarComponent = ({
 
                 <ContactIconWrapper>
                   <Box display="flex">
-                    <HiOutlineMailOpen size={45} color="#255778" />
+                    <HiOutlineMailOpen size={45} color="#fff" />
                     <Box display="flex" flexDirection="column" marginLeft={1}>
                       <Typography
                         variant="body1"
@@ -431,7 +426,7 @@ const SideBarComponent = ({
                 <ContactIconWrapper>
                   <Box display="flex">
                     <IoLocationOutline
-                      color="#255778"
+                      color="#fff"
                       style={{ fontSize: "100px" }}
                     />
                     <Box display="flex" flexDirection="column" marginLeft={1}>
@@ -462,7 +457,7 @@ const SideBarComponent = ({
                 <Box margin={5} display={"flex"} gap={2}>
                   {/* <FaSquareFacebook
                     size={40}
-                    enableBackground={"#255778"}
+                    enableBackground={"rgb(55, 81, 126)"}
                     color="white"
                     cursor={"pointer"}
                   /> */}

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export const ContainerBox = styled(Box)`
   padding: 0 5%;
-  background-color: #255778;
+  background-color:  rgb(55, 81, 126);
   background-image: url(/images/footer/footer.png);
   background-position: bottom left;
   background-repeat: no-repeat;
@@ -57,7 +57,7 @@ export const ImageStyle = styled(Image)`
 
 export const LogoStyle = styled(Box)`
   display: flex;
-  margin-left: -25px;
+  margin-left: 15px;
   font-family: "Poppins", sans-serif;
 `;
 export const LogoTypoStyle = styled(Typography)`
@@ -93,7 +93,7 @@ export const ParaStyle = styled(Typography)`
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color: #255778;
+  background-color:  rgb(55, 81, 126);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -132,7 +132,7 @@ export const NumberTypoStyled = styled(Typography)`
   color: white;
   fontsize: 18px;
   &:hover {
-    color: #255778;
+    color:  rgb(55, 81, 126);
     transition: 0.3s ease-in-out;
   }
       font-family: "Poppins", sans-serif;
@@ -163,7 +163,7 @@ font-family: "Poppins", sans-serif;
 `;
 export const ArrowIconStyle = styled(MdKeyboardDoubleArrowRight)`
   font-size: 18px;
-  color: #255778;
+  color:  #fff;
   position: relative;
   top: 3px;
   ${breakpoints.xs} {
@@ -192,9 +192,6 @@ export const StyledLink = styled(Link)`
   margin-left: 5px;
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
-  &:hover {
-    color: #255778;
-  }
  
   ${breakpoints.xs} {
     font-size: 16px;
@@ -241,7 +238,7 @@ export const IconLists = styled("li")`
   border-radius: 5px;
   transition: 0.3s ease-in-out;
   &:hover {
-    background-color: #255778;
+    background-color:  rgb(55, 81, 126);
   }
 `;
 
@@ -295,7 +292,7 @@ export const LinkBox = styled(Link)`
   cursor: pointer;
   transition: 0.3s ease-in-out;
   &:hover {
-    color: #255778;
+    color:  rgb(55, 81, 126);
   }
   ${breakpoints.xs} {
     font-size: 16px;

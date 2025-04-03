@@ -164,7 +164,7 @@ export const ImageStyled = styled("img")`
 `;
 
 export const ServiceItem = styled(Box)<{ selected: boolean }>`
-  background-color: ${({ selected }) => (selected ? "#255778" : "#ffffff")};
+  background-color: ${({ selected }) => (selected ? "rgb(55, 81, 126)" : "#ffffff")};
   color: ${({ selected }) => (selected ? "white" : "#101c2a")};
   font-weight: 600;
   font-size: 18px;
@@ -187,13 +187,13 @@ export const ServiceItem = styled(Box)<{ selected: boolean }>`
   }
 
   &:hover {
-    background-color: #255778;
+    background-color: rgb(55, 81, 126);
     color: white;
   }
 
   &:hover .arrow {
     background-color: white;
-    color: #255778;
+    color: rgb(55, 81, 126);
   }
 
   ${breakpoints.xs} {
@@ -212,7 +212,7 @@ export const ServiceItem = styled(Box)<{ selected: boolean }>`
 
 export const OpeningHoursItem = styled(Box)`
   background-color: #ffffff;
-  color: #101c2a;
+  color: rgb(55, 81, 126);
   font-weight: 600;
   font-size: 18px;
   padding: 20px;
@@ -252,7 +252,7 @@ export const ArrowBox = styled(Box)<{ selected: boolean }>`
   border-radius: 10px;
   transition: background-color 0.4s ease-in-out, color 0.4s ease-in-out;
   background-color: ${({ selected }) => (selected ? "white" : "transparent")};
-  color: ${({ selected }) => (selected ? "#255778" : "#101c2a")};
+  color: ${({ selected }) => (selected ? "rgb(55, 81, 126)" : "#101c2a")};
 
   ${breakpoints.xs} {
     width: 30px;

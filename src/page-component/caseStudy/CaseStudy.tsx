@@ -60,7 +60,7 @@ const CaseStudies = () => {
             height={15}
             width={33}
           />
-          <CaptionStyled variant="caption" sx={{ color: "#0d47a1" }}>
+          <CaptionStyled variant="caption" sx={{ color: "rgb(55, 81, 126)" }}>
             FROM OUR CASE STUDIES
           </CaptionStyled>
           <SectionTitle>We Delivered Best Solution</SectionTitle>
@@ -107,7 +107,7 @@ const CaseStudies = () => {
                             bottom: 20,
                             right: 20,
                             background:
-                              "linear-gradient(90deg, #3c72fc -10.59%, #00060c 300.59%)",
+                              "linear-gradient(90deg, rgb(55, 81, 126) -10.59%, #00060c 300.59%)",
                           }}
                           color="primary"
                         >
@@ -165,7 +165,7 @@ const CaseStudies = () => {
                             bottom: 20,
                             right: 20,
                             background:
-                              "linear-gradient(90deg, #3c72fc -10.59%, #00060c 300.59%)",
+                              "linear-gradient(90deg, rgb(55, 81, 126) -10.59%, #00060c 300.59%)",
                           }}
                           color="primary"
                         >

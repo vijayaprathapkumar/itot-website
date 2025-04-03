@@ -72,7 +72,7 @@ margin-bottom: 35px;
 `;
 
 export const HeadingSpan = styled("span")`
-  color: #3b71ca;
+  color: rgb(55, 81, 126);
 `;
 export const MessageIcon = styled(TextsmsOutlinedIcon)`
   height: 72px;
@@ -305,7 +305,7 @@ export const TextAreaStyle = styled(TextField)`
 `;
 
 export const ButtonStyled = styled(Button)`
-  background-color: black;
+  background-color: rgb(55, 81, 126);
   color: white;
   width: 30%;
   padding: 20px;

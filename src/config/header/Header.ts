@@ -5,6 +5,5 @@ export const menuItems = [
     { name: "Digital Marketing", path: "/digitalMarketing" },
   ]},
   { name: "Contact Us", path: "/contactUs" },
-  { name: "Blog", path: "/blog" },
-  { name: "Team", path: "/team" },
+  { name: "Blog", path: "/blog" }
 ];

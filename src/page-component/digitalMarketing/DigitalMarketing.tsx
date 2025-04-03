@@ -78,7 +78,7 @@ const DigitalMarketing = () => {
                   cursor: "pointer",
                   color: selectedService === service ? "white" : "#101c2a",
                   backgroundColor:
-                    selectedService === service ? "#255778" : "#f0f8ff",
+                    selectedService === service ? "rgb(55, 81, 126)" : "#f0f8ff",
                 }}
               >
                 <Typography variant="body1">{service}</Typography>
@@ -87,7 +87,7 @@ const DigitalMarketing = () => {
                   style={{
                     backgroundColor:
                       selectedService === service ? "white" : "transparent",
-                    color: selectedService === service ? "#255778" : "#101c2a",
+                    color: selectedService === service ? "rgb(55, 81, 126)" : "#101c2a",
                   }}
                 >
                   <FaArrowRightLong />
