@@ -5,14 +5,13 @@ import Image from "next/image";
 
 export const ContainerBox = styled(Box)`
   padding: 0 5%;
-  background-color:  rgb(55, 81, 126);
+  background-color: rgb(55, 81, 126);
   background-image: url(/images/footer/footer.png);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: contain;
-  position:reletive;
-  z-index:0;
-
+  position: reletive;
+  z-index: 0;
 `;
 
 export const SubPanel = styled(Box)`
@@ -38,9 +37,8 @@ export const SubPanel = styled(Box)`
   }
 `;
 export const ImageStyle = styled(Image)`
-   margin-top:-10px;
+  margin-top: -10px;
 
-  
   ${breakpoints.xs} {
     height: 80px;
     width: 80px;
@@ -81,19 +79,18 @@ export const ParaStyle = styled(Typography)`
   font-weight: 400;
   display: flex;
   width: 300px;
- font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   ${breakpoints.xs} {
     font-size: 16px;
   }
   ${breakpoints.lg} {
     font-size: 18px;
   }
-  
 `;
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color:  rgb(55, 81, 126);
+  background-color: rgb(55, 81, 126);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -115,10 +112,10 @@ export const CallTypoStyled = styled(Typography)`
   color: white;
   font-size: 18px;
   cursor: pointer;
-    font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
 
   ${breakpoints.xs} {
-  font-size: 16px;
+    font-size: 16px;
   }
   ${breakpoints.lg} {
     font-size: 18px;
@@ -132,10 +129,10 @@ export const NumberTypoStyled = styled(Typography)`
   color: white;
   fontsize: 18px;
   &:hover {
-    color:  rgb(55, 81, 126);
+    color: #fff;
     transition: 0.3s ease-in-out;
   }
-      font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   ${breakpoints.xs} {
     font-size: 16px;
   }
@@ -150,7 +147,7 @@ export const NumberTypoStyled = styled(Typography)`
 export const HeadingStyle = styled(Typography)`
   font-size: 22px;
   color: white;
-font-family: "Poppins", sans-serif;
+  font-family: "Poppins", sans-serif;
   ${breakpoints.xs} {
     font-size: 18px;
   }
@@ -163,7 +160,7 @@ font-family: "Poppins", sans-serif;
 `;
 export const ArrowIconStyle = styled(MdKeyboardDoubleArrowRight)`
   font-size: 18px;
-  color:  #fff;
+  color: #fff;
   position: relative;
   top: 3px;
   ${breakpoints.xs} {
@@ -192,7 +189,7 @@ export const StyledLink = styled(Link)`
   margin-left: 5px;
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
- 
+
   ${breakpoints.xs} {
     font-size: 16px;
   }
@@ -201,7 +198,6 @@ export const StyledLink = styled(Link)`
   }
   ${breakpoints.xl} {
     font-size: 18px;
-     
   }
 `;
 
@@ -238,7 +234,7 @@ export const IconLists = styled("li")`
   border-radius: 5px;
   transition: 0.3s ease-in-out;
   &:hover {
-    background-color:  rgb(55, 81, 126);
+    background-color: rgb(55, 81, 126);
   }
 `;
 
@@ -263,7 +259,6 @@ export const FooterStep = styled(Box)`
   ${breakpoints.lg} {
     justify-content: space-between;
   }
-
 `;
 
 export const CopyrightTypo = styled(Typography)`
@@ -277,7 +272,7 @@ export const CopyrightTypo = styled(Typography)`
   ${breakpoints.lg} {
     font-size: 18px;
   }
-      ${breakpoints.xl} {
+  ${breakpoints.xl} {
     font-size: 18px;
   }
 `;
@@ -286,13 +281,13 @@ export const LinkBox = styled(Link)`
   color: white;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
-  font-weight:400;
+  font-weight: 400;
   padding: 10px;
   text-decoration: none;
   cursor: pointer;
   transition: 0.3s ease-in-out;
   &:hover {
-    color:  rgb(55, 81, 126);
+    color: #fff;
   }
   ${breakpoints.xs} {
     font-size: 16px;
@@ -301,48 +296,48 @@ export const LinkBox = styled(Link)`
   ${breakpoints.lg} {
     font-size: 18px;
   }
-      ${breakpoints.xl} {
+  ${breakpoints.xl} {
     font-size: 18px;
   }
 `;
 
 export const YAxisPlusAnimateBox = styled(Box)`
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
     opacity: 1;
     transform: translateY(0);
   }
-`
+`;
 export const XAxisPlusAnimateBox = styled(Box)`
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
     opacity: 1;
     transform: translatex(0);
   }
-`
+`;
 export const YAxisMinusAnimateBox = styled(Box)`
   opacity: 0;
-  transform: translatey(-50px);
+  transform: translatey(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
     opacity: 1;
     transform: translateY(0);
   }
-`
+`;
 export const XAxisMinusAnimateBox = styled(Box)`
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
     opacity: 1;
     transform: translatex(0);
   }
-`
+`;

@@ -28,7 +28,7 @@ export const MainHeadTypo = styled(Typography)`
   font-size: 40px;
   color: rgb(55, 81, 126);
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -53,7 +53,7 @@ export const DescriptionTypo = styled(Typography)`
   color: grey;
   line-height: 35px;
   opacity: 0;
-  transform: translatey(-50px);
+  transform: translatey(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -79,7 +79,7 @@ export const ButtonExplore = styled(Button)`
   border-radius: 50px 50px 50px 0px;
   margin-top: 50px;
   opacity: 0;
-  transform: translatey(50px);
+  transform: translatey(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -105,7 +105,7 @@ export const ButtonPlan = styled(Button)`
   border-radius: 50px;
   margin-top: 50px;
   opacity: 0;
-  transform: translatey(50px);
+  transform: translatey(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -156,7 +156,7 @@ export const ServiceTypo = styled(Typography)`
   font-size: 20px;
   font-weight: 700;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -170,7 +170,7 @@ export const IconStyle = styled(Image)`
 `;
 export const CardContainer = styled(CardContent)`
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

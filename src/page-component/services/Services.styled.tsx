@@ -51,7 +51,7 @@ export const LeftSection = styled(Box)`
   position: relative;
   z-index: -1;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -71,7 +71,7 @@ export const LeftSection = styled(Box)`
   }
   ${breakpoints.lg} {
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateX(0px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
     .animate & {
@@ -109,7 +109,7 @@ export const RightSection = styled(Box)`
   padding: 20px;
   border-radius: 10px;
   opacity: 0;
-  transform: translateX(50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -129,7 +129,7 @@ export const RightSection = styled(Box)`
   }
   ${breakpoints.lg} {
     opacity: 0;
-    transform: translateX(50px);
+    transform: translateX(0px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 
     .animate & {

@@ -22,7 +22,7 @@ export const ImageTwoBox = styled(Box)`
   left: 36%;
   animation: sway2 3s linear infinite alternate;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -62,7 +62,7 @@ export const ImageThreeBox = styled(Box)`
   margin-top: 170px;
   animation: sway 3s linear infinite alternate;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -105,7 +105,7 @@ export const ImageFourBox = styled(Box)`
   position: absolute;
   left: 5%;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -125,7 +125,7 @@ export const ImageFiveBox = styled(Box)`
   left: 23%;
   margin-top: 11.5%;
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -155,7 +155,7 @@ export const ImageSixBox = styled(Box)`
   z-index: -1;
   margin-top: 50px;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -178,7 +178,7 @@ export const ImageSixBox = styled(Box)`
 export const ImageSrc = styled(Image)`
   object-fit: contain;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -289,7 +289,7 @@ export const WhoWeAreBox = styled(Box)`
   display: flex;
   gap: 10px;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -321,7 +321,7 @@ export const SuccessHedTypo = styled(Typography)`
   line-height: 60px;
   margin-top: 30px;
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -345,7 +345,7 @@ export const DescriptionTypo = styled(Typography)`
   color: #585858;
   width: 120%;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -369,7 +369,7 @@ export const CircleCheckIcon = styled(FaCircleCheck)`
   color: rgb(55, 81, 126);
   font-size: 25px;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -391,7 +391,7 @@ export const ListItemTypo = styled(Typography)`
   font-weight: 700;
   margin-left: -10px;
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -440,7 +440,7 @@ export const ButtonExplore = styled(Button)`
     background: #000;
   }
   opacity: 0;
-  transform: translateY(50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

@@ -48,7 +48,6 @@ import {
 } from "./Header.styled";
 import { IoIosMenu, IoIosSearch, IoMdClose } from "react-icons/io";
 import { HiOutlineMailOpen } from "react-icons/hi";
-// import { FaSquareFacebook } from "react-icons/fa6";
 import Link from "next/link";
 import { menuItems } from "@/config/header/Header";
 import React from "react";
@@ -61,25 +60,24 @@ const TopBarComponent = () => {
         <TopBarBoxItem>
           <FaPhone size={20} color="#fff" style={{ marginTop: 2 }} />
           <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
-            +91 8940030201
+            +65 96212064
           </Typography>
         </TopBarBoxItem>
         <TopBarMailItem>
           <IoMail size={20} color="#fff" style={{ marginTop: 2 }} />
-          <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
-            info@genpixels.com
-          </Typography>
+          <a
+            href="mailto:sales@itot.sg"
+            style={{ textDecoration: "none", color: "inherit" }}
+            target="_blank"
+          >
+            <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
+              info@itot.sg
+            </Typography>
+          </a>
         </TopBarMailItem>
       </TopBarBox>
       <TopBarAddressWarpper>
         <TopBarAddressItem>
-          <FlagImage
-            src={"/images/Header/india.png"}
-            alt="India"
-            height={15}
-            width={22}
-          />
-          <Typography variant="body1">India</Typography>
           <FlagImage
             src={"/images/Header/singapore.webp"}
             alt="India"
@@ -87,6 +85,13 @@ const TopBarComponent = () => {
             width={22}
           />
           <Typography variant="body1">Singapore</Typography>
+          <FlagImage
+            src={"/images/Header/india.png"}
+            alt="India"
+            height={15}
+            width={22}
+          />
+          <Typography variant="body1">India</Typography>
         </TopBarAddressItem>
       </TopBarAddressWarpper>
     </TopBar>
@@ -363,8 +368,8 @@ const SideBarComponent = ({
                 />
               </SideBarLogoWrapper>
               <SideBarContent variant="body1">
-                ITOT is a software development and digital marketing
-                company, delivering customized digital solutions for businesses
+                ITOT is a software development and digital marketing company,
+                delivering customized digital solutions for businesses
                 worldwide.
               </SideBarContent>
               <Box sx={{ marginTop: "20px" }}>
@@ -392,7 +397,7 @@ const SideBarComponent = ({
                         fontWeight={600}
                         lineHeight={"30px"}
                       >
-                        +91 8940030201
+                        +65 96212064
                       </Typography>
                     </Box>
                   </Box>
@@ -417,7 +422,7 @@ const SideBarComponent = ({
                         fontWeight={600}
                         lineHeight={"30px"}
                       >
-                        info@genpixels.com
+                        contacts@itot.sg;
                       </Typography>
                     </Box>
                   </Box>
@@ -427,7 +432,7 @@ const SideBarComponent = ({
                   <Box display="flex">
                     <IoLocationOutline
                       color="#fff"
-                      style={{ fontSize: "100px" }}
+                      style={{ fontSize: "45px" }}
                     />
                     <Box display="flex" flexDirection="column" marginLeft={1}>
                       <Typography
@@ -444,8 +449,7 @@ const SideBarComponent = ({
                         fontSize={"14px"}
                         fontWeight={600}
                       >
-                        B block - 3F - 3rd floor Sri Ram Towers, 1D, 642Avinashi
-                        Road, Lakshmi Mills, Coimbatore, 641037
+                        23,Fernvale Road, Singapore, 797638
                       </Typography>
                     </Box>
                   </Box>

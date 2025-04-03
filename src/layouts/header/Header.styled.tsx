@@ -13,7 +13,7 @@ export const TopBar = styled(Box)`
   color: white;
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity .5s ease-out, transform .5s ease-out;
 
   .animate & {
@@ -101,7 +101,7 @@ export const NavBar = styled(Box)`
   padding: 0px 5%;
   transition: background-color 0.3s ease;
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity .5s ease-out, transform .5s ease-out;
   justify-content: space-between;
   background-color: rgb(55, 81, 126);
@@ -360,7 +360,7 @@ export const StyledLink = styled(Link)`
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
   &:hover {
-    color:  rgb(55, 81, 126);
+    color:  #fff;
   }
  
   ${breakpoints.xs} {
