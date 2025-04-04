@@ -34,7 +34,7 @@ export const HeadingStyled = styled(Typography)`
   text-transform: uppercase;
   margin-bottom: 35px;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 0.5s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -61,7 +61,7 @@ font-weight: 400;
 color: #7f7f8c;
 margin-bottom: 35px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -100,9 +100,8 @@ export const ContactPara = styled(Typography)`
   font-weight: 500;
   border-bottom: 1px solid #d9d9d9;
   padding: 10px 10px;
-  margin-left: 20px;
   line-height: -2px;
-
+  margin-bottom: 20px;
   ${breakpoints.xs} {
     font-size: 18px;
   }
@@ -160,7 +159,7 @@ export const LocationPara = styled(Typography)`
   font-weight: 400;
   font-size: 18px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -216,7 +215,7 @@ export const ContactTitle = styled(Typography)`
   text-transform: capitalize;
   margin-bottom: 20px;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -243,7 +242,7 @@ export const EmailPara = styled(Typography)`
   margin-bottom: 30px;
   font-weight: 400;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -258,7 +257,7 @@ export const ContactInfoBox = styled(Box)`
   gap: 10px;
   margin-bottom: 10px;
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -278,7 +277,7 @@ export const InputRow = styled(Box)`
   gap: 15px;
   margin-bottom: 30px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -295,7 +294,7 @@ export const InputRow = styled(Box)`
 
 export const TextAreaStyle = styled(TextField)`
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -312,7 +311,7 @@ export const ButtonStyled = styled(Button)`
   font-size: 16px;
   text-transform: capitalize;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

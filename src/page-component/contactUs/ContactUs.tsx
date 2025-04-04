@@ -63,13 +63,47 @@ export const ContactUs = (props: {
           Contact <HeadingSpan>With Us</HeadingSpan>
         </HeadingStyled>
         <Parastyled>
-          Unleash your digital potential with Genpixels - Start your
-          transformation journey today!
+          Unleash your digital potential with ITOT - Start your transformation
+          journey today!
         </Parastyled>
 
         <ContactInfoBox>
           <MessageIcon />
-          <ContactPara>info@genpixels.com</ContactPara>
+          <Box>
+            <Box>
+              <a
+                href="mailto:sales@itot.sg"
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+              >
+                <ContactPara sx={{ fontFamily: "Poppins, sans-serif" }}>
+                  info@itot.sg,
+                </ContactPara>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="mailto:contacts@itot.sg"
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+              >
+                <ContactPara sx={{ fontFamily: "Poppins, sans-serif" }}>
+                  contacts@itot.sg,
+                </ContactPara>
+              </a>
+            </Box>
+            <Box>
+              <a
+                href="mailto:sales@itot.sg;"
+                style={{ textDecoration: "none", color: "inherit" }}
+                target="_blank"
+              >
+                <ContactPara sx={{ fontFamily: "Poppins, sans-serif" }}>
+                  sales@itot.sg
+                </ContactPara>
+              </a>
+            </Box>
+          </Box>
         </ContactInfoBox>
         <ContactInfoBox>
           <CallerIcon />
@@ -82,10 +116,7 @@ export const ContactUs = (props: {
               <LocationHeading>Office Location</LocationHeading>
               <ArrowDownwardOutlinedIcon sx={{ marginTop: "-15px" }} />
             </ContactInfoBox>
-            <LocationPara>
-              B block - 3F - 3rd floor Sri Ram Towers, 1D, 642Avinashi Road,
-              Lakshmi Mills, Coimbatore, 641037
-            </LocationPara>
+            <LocationPara>23,Fernvale Road, Singapore, 797638</LocationPara>
           </Box>
           {/* <Box>
             <ContactInfoBox>

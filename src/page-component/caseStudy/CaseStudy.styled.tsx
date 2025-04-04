@@ -13,7 +13,7 @@ export const SectionTitle = styled(Typography)`
   margin-top: 10px;
   line-height: 48px;
   opacity: 0;
-  transform: translatex(50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -68,7 +68,7 @@ export const ViewAllButton = styled(Button)`
   padding: 15px 25px;
   text-transform: none;
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
   .animate & {
     opacity: 1;
@@ -87,7 +87,7 @@ export const CaptionStyled = styled(Typography)`
   line-height: 28px;
   margin-left: 10px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

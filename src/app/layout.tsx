@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Genpixels",
+  title: "ITOT",
   description:
     "Empowering businesses with cutting-edge IT solutions and result-driven digital marketing strategies.",
 };
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/images/logo/genpixels.png" />
+        {/* <link rel="icon" href="/images/logo/genpixels.png" /> */}
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <AppRouterCacheProvider>

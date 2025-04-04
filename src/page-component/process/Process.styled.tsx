@@ -11,7 +11,7 @@ export const HeadingStyled = styled(Box)`
   display: flex;
   justify-content: center;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -31,7 +31,7 @@ export const HeadingTypo = styled(Typography)`
   font-weight: 500;
   margin-left: 10px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -46,7 +46,7 @@ export const TitleTypo = styled(Typography)`
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -126,7 +126,7 @@ export const ImageContainer = styled(Box)`
 
 export const AnimatedTypography = styled(Typography)`
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -138,7 +138,7 @@ export const AnimatedTypography = styled(Typography)`
 export const AnimatedsubTypography = styled(Typography)`
   line-height: 32px;
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

@@ -28,7 +28,7 @@ import {
 } from "./Footer.styled";
 import { Box, Link } from "@mui/material";
 import { BiPhoneCall } from "react-icons/bi";
-import {  FaLinkedinIn } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
@@ -79,8 +79,8 @@ const Footer = () => {
 
               <Box sx={{ marginLeft: "10px" }}>
                 <CallTypoStyled>Make a call</CallTypoStyled>
-                <NumberTypoStyled> +91 8940030201</NumberTypoStyled>
-                <NumberTypoStyled>+91 9894666552</NumberTypoStyled>
+                <NumberTypoStyled> +65 96212064</NumberTypoStyled>
+                <NumberTypoStyled>+65 91469542</NumberTypoStyled>
               </Box>
             </Box>
           </YAxisPlusAnimateBox>
@@ -133,15 +133,21 @@ const Footer = () => {
                     <FaFacebookF />
                   </IconLists> */}
                 </StyledLink>
-                <StyledLink href="https://www.linkedin.com/company/genpixels-tech-pvt-ltd" target="_blank">
+                <StyledLink
+                  href="https://www.linkedin.com/company/genpixels-tech-pvt-ltd"
+                  target="_blank"
+                >
                   <IconLists>
                     <FaLinkedinIn />
                   </IconLists>
                 </StyledLink>
-                <StyledLink href="https://www.instagram.com/gen_pixels?igsh=aXQ3bjF6bWJsMjF6&utm_source=qr" target="_blank">
-                <IconLists>
-                  <FaInstagram />
-                </IconLists>
+                <StyledLink
+                  href="https://www.instagram.com/gen_pixels?igsh=aXQ3bjF6bWJsMjF6&utm_source=qr"
+                  target="_blank"
+                >
+                  <IconLists>
+                    <FaInstagram />
+                  </IconLists>
                 </StyledLink>
               </IconMainUl>
             </Box>

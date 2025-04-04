@@ -47,7 +47,7 @@ export const Sidebar = styled(Box)`
 export const MainContent = styled(Box)`
   padding-right: 10px;
   opacity: 0;
-  transform: translateY(-50px);
+  transform: translateY(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -76,7 +76,7 @@ export const ServiceItem = styled(Box)`
   transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
 
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -189,7 +189,7 @@ export const BulletPoint = styled(Box)`
 
 export const TitleTypography = styled(Typography)`
   opacity: 0;
-  transform: translateX(-50px);
+  transform: translateX(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {

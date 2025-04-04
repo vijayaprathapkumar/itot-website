@@ -37,7 +37,7 @@ export const TitleHead = styled(Typography)`
   line-height: 56px;
   margin: 0px 0px 10px;
   opacity: 0;
-  transform: translatex(-50px);
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -61,8 +61,8 @@ export const DescriptionText = styled(Typography)`
   font-size: 24px;
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 30px;
-   opacity: 0;
-  transform: translatex(50px);
+  opacity: 0;
+  transform: translatex(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
@@ -129,8 +129,8 @@ export const ButtonStarted = styled(Button)`
   transition: 0.5s;
   margin: 10px 0px 0px;
   background: rgb(71, 178, 228);
-   opacity: 0;
-  transform: translatey(50px);
+  opacity: 0;
+  transform: translatey(0px);
   transition: opacity 1s ease-out, transform 1s ease-out;
 
   .animate & {
