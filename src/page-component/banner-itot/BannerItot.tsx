@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 
-import { Box, Button, Typography } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 import {
   ButtonStarted,
@@ -11,7 +10,7 @@ import {
   MainBannerBox,
   TitleHead,
 } from "./BannerItot.styled";
-import Image from "next/image";
+import Box from "@mui/material/Box";
 
 export const icons = [{ src: "/images/banner/hubspot.png", alt: "HubSpot" }];
 

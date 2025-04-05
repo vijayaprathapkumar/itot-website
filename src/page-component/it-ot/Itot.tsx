@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
 import React from "react";
 import {
   MainHeadText,
@@ -51,7 +51,6 @@ import {
   AbbrevationTextIt,
   AbbrevationTextOt,
 } from "./Itot.styled";
-import Image from "next/image";
 
 const Itot = () => {
   return (
@@ -68,7 +67,7 @@ const Itot = () => {
         <BodyText variant="body1">
           Experience seamless HR & Accounting software that integrates all
           essential features to accelerate your business operations. With
-          Info-Tech's software, your entire operations can be automated.
+          Info-Tech&apos;s software, your entire operations can be automated.
         </BodyText>
       </MainBox>
       <ContainerBox>

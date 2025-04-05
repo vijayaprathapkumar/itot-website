@@ -16,7 +16,6 @@ import {
   LinkBox,
   ListStyled,
   LogoStyle,
-  LogoTypoStyle,
   NumberTypoStyled,
   StyledLink,
   SubPanel,
