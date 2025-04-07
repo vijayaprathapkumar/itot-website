@@ -1,40 +1,25 @@
 export const cards = [
   {
-    icon: "/images/service/seo.png",
-    title: "SEO",
+    icon: "/images/service/IT.png",
+    title: "IT Services",
+    path:"/it-management",
     description:
-      "Ever feel like your website is a secret club that nobody can find? We’ll get you to the top of Google’s guest list, so your website is the life of the party. Think of us as your SEO bodyguards, making sure you don’t get stuck in the 'page 10' zone!",
+      "Our IT services enhance digital transformation through application revitalization, modular engineering, UI/UX design, AI & data intelligence, cloud modernization, and CMS engineering. We empower businesses with scalable, intelligent, and user-centric solutions, optimizing performance, security, and innovation to drive growth, efficiency, and seamless digital experiences in an evolving technological landscape.",
   },
   {
-    icon: "/images/service/smm.png",
-    title: "SMM",
+    icon: "/images/service/Es.png",
+    title: "OT Services",
+    path:"/ot-services",
     description:
-      "Stuck in the social media trenches, posting into the void? We’ll help you stand out on platforms like Facebook, Instagram, and Twitter—because your posts deserve more than just likes from your mom and best friend!",
+      "Our engineering solutions streamline operations with integrated BMS, Energy Management, Industrial & Process Automation, WMS, ERP, and MES. We optimize efficiency, sustainability, and productivity through smart automation and data-driven insights, helping businesses reduce costs, enhance decision-making, and adapt to evolving industry demands with seamless, scalable technology.",
   },
   {
-    icon: "/images/service/PM.png",
-    title: "Performance Marketing",
+    icon: "/images/service/Dm.png",
+    title: "Digital Marketing Services",
+    path:"/digitalMarketing",
     description:
-      "Performance marketing is similar to darts, only that you only pay for bullseyes, not random throws!  No more spending money; instead, get precise outcomes.",
-  },
-  {
-    icon: "/images/service/branding.png",
-    title: "Branding",
-    description:
-      "Your brand should be like your favorite celebrity—unforgettable, relatable, and possibly better than everyone else. We’ll help craft your brand's personality so it’s as iconic as your favorite meme",
-  },
-  {
-    icon: "/images/service/EM.png",
-    title: "Email Marketing",
-    description:
-      "Send more than just reminders to 'unsubscribe'—we’ll craft emails that people actually want to open! Think of us as the digital version of a love letter... except it’s all about your product and not a middle school crush",
-  },
-  {
-    icon: "/images/service/WD.png",
-    title: "Website Design",
-    description:
-      "Designing a website is like to designing your ideal home, but for the internet. We avoid the delays and provide a modern, useful area that is ready to wow!  There are no longer any cobwebs in the corner; the design is neat and appealing.",
-  },
+      "Our digital marketing services enhance brand presence through SEO, content strategy, social media engagement, PPC advertising, analytics, and marketing automation. We drive targeted campaigns, optimize visibility, and leverage data-driven insights to maximize reach, customer engagement, and business growth in a rapidly shifting digital ecosystem.",
+  }
 ];
 
 // Define the ServiceContent type

@@ -6,12 +6,13 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 export const MainBox = styled(Box)`
   position: relative;
-  z-index: -1;
+  z-index: 0;
   overflow: hidden;
 
   &::before {
     content: "";
     position: absolute;
+    z-index: 0;
     inset: 0;
     background: linear-gradient(
       rgba(104, 131, 179, 0.7),
@@ -19,7 +20,6 @@ export const MainBox = styled(Box)`
     ),
     url("/images/whoweare/bg3.avif") no-repeat center center;
     background-size: cover;
-    z-index: -1;
   }
 
 `;
@@ -27,6 +27,7 @@ export const MainBox = styled(Box)`
 export const ImageOneBox = styled(Box)`
   position: absolute;
   right: 0;
+  z-index: -1;
   ${breakpoints.xs} {
     margin-top: 400px;
   }

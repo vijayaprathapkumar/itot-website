@@ -13,7 +13,7 @@ import {
   Typography,
 } from "@mui/material";
 import { FaInstagramSquare, FaLinkedin, FaPhone } from "react-icons/fa";
-import { IoMail, IoCloseOutline, IoLocationOutline } from "react-icons/io5";
+import { IoMail, IoCloseOutline, IoLocationOutline, IoMailUnreadOutline } from "react-icons/io5";
 import { PiDotsNineBold } from "react-icons/pi";
 import { BiPhoneCall } from "react-icons/bi";
 import Image from "next/image";
@@ -43,6 +43,7 @@ import {
   FlagImage,
   TopBarMailItem,
   StyledLink,
+  MailIcon,
 } from "./Header.styled";
 import { IoIosMenu, IoIosSearch, IoMdClose } from "react-icons/io";
 import { HiOutlineMailOpen } from "react-icons/hi";
@@ -139,19 +140,19 @@ const NavBarComponent = ({
             <NavItem
               key={index}
               onMouseEnter={
-                item.name === "Service" ? handleServiceMouseEnter : undefined
+                item.name === "Services" ? handleServiceMouseEnter : undefined
               }
             >
               <NavLink href={item.path || "#"} passHref>
                 <Typography>{item.name}</Typography>
               </NavLink>
 
-              {item.name === "Service" && showServiceDropdown && (
+              {item.name === "Services" && showServiceDropdown && (
                 <Box
                   sx={{
                     position: "absolute",
-                    top: "100%",
-                    left: { lg: 620, xl: 670 },
+                    top: "80%",
+                    left: { lg: 770, xl: 670 },
                     backgroundColor: "white",
                     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
                     zIndex: 1,
@@ -176,35 +177,12 @@ const NavBarComponent = ({
               )}
             </NavItem>
           ))}
-        </BoxNavWarpper>
-
-        {/* Search and Call */}
-        <Box display="flex" alignItems="center" gap={2}>
           <SearchIconWrapper display="flex" alignItems="center" gap={-2}>
             <IconButton onClick={handleSidebarToggle}>
-              <PiDotsNineBold size={30} color="#fff" />
+              <MailIcon />
             </IconButton>
           </SearchIconWrapper>
-
-          {/* <CallBoxWrapper>
-            <CallIconWrapper>
-              <BiPhoneCall size={30} color="white" />
-            </CallIconWrapper>
-            <Box display="flex" flexDirection="column">
-              <Typography variant="body2" fontWeight="bold" color="rgb(55, 81, 126)">
-                Make a call
-              </Typography>
-              <Typography
-                variant="body1"
-                fontWeight="bold"
-                color="black"
-                sx={{ marginTop: "2px" }}
-              >
-                 +91 8940030201
-              </Typography>
-            </Box>
-          </CallBoxWrapper> */}
-        </Box>
+        </BoxNavWarpper>
       </NavBar>
       <SearchBarComponent
         showSearch={showSearch}
@@ -258,11 +236,11 @@ const NavBarComponent = ({
               <ListItem key={index} disablePadding>
                 <ListItemButton
                   onMouseEnter={() =>
-                    item.name === "Service" && setShowServiceDropdown(true)
+                    item.name === "Services" && setShowServiceDropdown(true)
                   }
                   onClick={(e) => {
                     e.stopPropagation();
-                    if (item.name === "Service") {
+                    if (item.name === "Services") {
                       setShowServiceDropdown(true);
                     } else {
                       toggleDrawer(false)();
@@ -288,7 +266,7 @@ const NavBarComponent = ({
                       </Typography>
                     </ListItemText>
                   </Link>
-                  {item.name === "Service" && showServiceDropdown && (
+                  {item.name === "Services" && showServiceDropdown && (
                     <Box
                       sx={{
                         position: "absolute",
@@ -366,9 +344,8 @@ const SideBarComponent = ({
                 />
               </SideBarLogoWrapper>
               <SideBarContent variant="body1">
-                ITOT is a software development and digital marketing company,
-                delivering customized digital solutions for businesses
-                worldwide.
+                ITOT accelerates SME growth through tailored digital solutions,
+                driving innovation in the digital age.”
               </SideBarContent>
               <Box sx={{ marginTop: "20px" }}>
                 <hr style={{ border: "1px solid #fff", width: "100%" }} />
@@ -420,7 +397,7 @@ const SideBarComponent = ({
                         fontWeight={600}
                         lineHeight={"30px"}
                       >
-                        contacts@itot.sg;
+                        contacts@itot.sg
                       </Typography>
                     </Box>
                   </Box>
@@ -558,7 +535,7 @@ const Header = () => {
   return (
     <Box ref={sectionRef} className={isVisible ? "animate" : ""}>
       {/* Top Bar */}
-      <TopBarComponent />
+      {/* <TopBarComponent /> */}
 
       {/* Navigation */}
       <NavBarComponent handleSidebarToggle={handleSidebarToggle} />

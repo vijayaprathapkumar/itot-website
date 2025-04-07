@@ -29,6 +29,7 @@ import { Box, Link } from "@mui/material";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
+import { IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -68,18 +69,26 @@ const Footer = () => {
                 width={80}
               />
             </LogoStyle>
-            {/* <ParaStyle>
-              Your trusted partner in Genpixels Tech Pvt Ltd
-            </ParaStyle> */}
             <Box sx={{ display: "flex", marginTop: "15px" }}>
               <CallIconWrapper>
                 <BiPhoneCall size={30} color="white" />
               </CallIconWrapper>
-
               <Box sx={{ marginLeft: "10px" }}>
                 <CallTypoStyled>Make a call</CallTypoStyled>
                 <NumberTypoStyled> +65 96212064</NumberTypoStyled>
-                <NumberTypoStyled>+65 91469542</NumberTypoStyled>
+              </Box>
+            </Box>
+            <Box sx={{ display: "flex", marginTop: "15px" }}>
+              <CallIconWrapper>
+                <IoLocationOutline color="#fff" style={{ fontSize: "35px" }} />
+              </CallIconWrapper>
+              <Box sx={{ marginLeft: "10px" }}>
+                <CallTypoStyled>Address</CallTypoStyled>
+                <NumberTypoStyled> ITOT Solutions Pte Ltd</NumberTypoStyled>
+                <NumberTypoStyled>
+                  {" "}
+                  23,Fernvale Road <br /> #04-15 <br /> Singapore
+                </NumberTypoStyled>
               </Box>
             </Box>
           </YAxisPlusAnimateBox>
@@ -92,15 +101,7 @@ const Footer = () => {
               </ListStyled>
               <ListStyled>
                 <ArrowIconStyle />
-                <StyledLink href="/team">Team</StyledLink>
-              </ListStyled>
-              <ListStyled>
-                <ArrowIconStyle />
                 <StyledLink href="/aboutUs">About Us</StyledLink>
-              </ListStyled>
-              <ListStyled>
-                <ArrowIconStyle />
-                <StyledLink href="/blog">Blog</StyledLink>
               </ListStyled>
             </UnitList>
           </XAxisPlusAnimateBox>
@@ -109,12 +110,16 @@ const Footer = () => {
             <UnitList>
               <ListStyled>
                 <ArrowIconStyle />
-                <StyledLink href="/it-management">IT Solution</StyledLink>
+                <StyledLink href="/it-management">IT Services</StyledLink>
+              </ListStyled>
+              <ListStyled>
+                <ArrowIconStyle />
+                <StyledLink href="/ot-services">Ot Services</StyledLink>
               </ListStyled>
               <ListStyled>
                 <ArrowIconStyle />
                 <StyledLink href="/digitalMarketing">
-                  Digital Marketing
+                  Digital Marketing Services
                 </StyledLink>
               </ListStyled>
             </UnitList>
@@ -156,7 +161,7 @@ const Footer = () => {
           <CopyrightTypo>
             Copyright {new Date().getFullYear()} - All Rights Reserved By -{" "}
             <Link sx={{ color: "", cursor: "pointer" }} href="#">
-              Genpixels Tech Pvt Ltd
+              ITOT Solutions Pte Ltd
             </Link>
           </CopyrightTypo>
           <Box>

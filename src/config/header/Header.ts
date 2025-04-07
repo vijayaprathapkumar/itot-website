@@ -1,9 +1,14 @@
 export const menuItems = [
+  { name: "Home", path: "/" },
+  {
+    name: "Services",
+    path: "",
+    subItems: [
+      { name: "IT Services", path: "/it-management" },
+      { name: "OT Services", path: "/ot-services" },
+      { name: "Digital Marketing", path: "/digitalMarketing" },
+    ],
+  },
   { name: "About Us", path: "/aboutUs" },
-  { name: "Service", path: "", subItems: [
-    { name: "IT Management", path: "/it-management" },
-    { name: "Digital Marketing", path: "/digitalMarketing" },
-  ]},
   { name: "Contact Us", path: "/contactUs" },
-  { name: "Blog", path: "/blog" }
 ];

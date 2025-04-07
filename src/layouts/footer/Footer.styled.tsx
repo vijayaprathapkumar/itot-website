@@ -24,7 +24,6 @@ export const SubPanel = styled(Box)`
   }
   ${breakpoints.md} {
     flex-direction: row;
-    flex-wrap: wrap;
   }
   & > * {
     ${breakpoints.md} {

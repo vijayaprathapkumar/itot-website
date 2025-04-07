@@ -3,6 +3,7 @@ import { Box, Typography } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Image from "next/image";
 import Link from "next/link";
+import { IoMailUnreadOutline } from "react-icons/io5";
 
 // Top Bar Styles
 export const TopBar = styled(Box)`
@@ -14,7 +15,7 @@ export const TopBar = styled(Box)`
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   opacity: 0;
   transform: translatex(0px);
-  transition: opacity .5s ease-out, transform .5s ease-out;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
 
   .animate & {
     opacity: 1;
@@ -92,7 +93,7 @@ export const TopBarAddressItem = styled(Box)`
 
 export const FlagImage = styled(Image)`
   border-radius: 3px;
-`
+`;
 
 // NavBar Styles
 export const NavBar = styled(Box)`
@@ -102,7 +103,7 @@ export const NavBar = styled(Box)`
   transition: background-color 0.3s ease;
   opacity: 0;
   transform: translatex(0px);
-  transition: opacity .5s ease-out, transform .5s ease-out;
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
   justify-content: space-between;
   background-color: rgb(55, 81, 126);
   margin-top: 2px;
@@ -170,6 +171,9 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   color: #fff;
   font-weight: 800;
+  position:relative;
+  z-index:1;
+
 `;
 
 export const NavItem = styled(Box)`
@@ -182,7 +186,7 @@ export const NavItem = styled(Box)`
   transition: color 0.3s ease;
   font-family: "Poppins", sans-serif;
   &:hover {
-    color:  rgb(55, 81, 126);
+    color: rgb(55, 81, 126);
   }
 
   &:active {
@@ -232,7 +236,7 @@ export const CallBoxWrapper = styled(Box)`
 export const CallIconWrapper = styled(Box)`
   width: 50px;
   height: 50px;
-  background-color:  rgb(55, 81, 126);
+  background-color: rgb(55, 81, 126);
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -256,7 +260,7 @@ export const SideBarWrapper = styled(Box)`
 export const SideBarIconWrapper = styled(Box)`
   width: 400px;
   height: 100vh;
-  background:  rgb(55, 81, 126);
+  background: rgb(55, 81, 126);
   color: white;
   box-shadow: -4px 0px 10px rgba(0, 0, 0, 0.2);
   display: flex;
@@ -335,21 +339,27 @@ export const SearchInputBox = styled(Box)`
 
 export const SearchIconWrapper = styled(Box)`
   display: flex;
-  margin-left: 150px;
-
+  position: absolute;
+  right: 0;
+  top: 120px;
   ${breakpoints.xs} {
     display: none;
   }
 
   ${breakpoints.lg} {
     display: flex;
-    margin-left: 50px;
   }
 
   ${breakpoints.xl} {
     display: flex;
-    margin-left: 150px;
   }
+`;
+export const MailIcon = styled(IoMailUnreadOutline)`
+  color: white;
+  font-size: 40px;
+  background: rgb(71, 178, 228);
+  padding: 2px;
+  border-radius: 8px;
 `;
 export const StyledLink = styled(Link)`
   color: white;
@@ -360,9 +370,9 @@ export const StyledLink = styled(Link)`
   font-family: "Poppins", sans-serif;
   transition: 0.3s ease-in-out;
   &:hover {
-    color:  #fff;
+    color: #fff;
   }
- 
+
   ${breakpoints.xs} {
     font-size: 16px;
   }
@@ -371,6 +381,5 @@ export const StyledLink = styled(Link)`
   }
   ${breakpoints.xl} {
     font-size: 18px;
-     
   }
 `;

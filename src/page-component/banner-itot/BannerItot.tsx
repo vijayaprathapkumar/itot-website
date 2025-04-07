@@ -11,8 +11,7 @@ import {
   TitleHead,
 } from "./BannerItot.styled";
 import Box from "@mui/material/Box";
-
-export const icons = [{ src: "/images/banner/hubspot.png", alt: "HubSpot" }];
+import Link from "next/link";
 
 const BannerItot = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -42,11 +41,16 @@ const BannerItot = () => {
   return (
     <MainBannerBox ref={sectionRef} className={isVisible ? "animate" : ""}>
       <ContentBox>
-        <TitleHead variant="h2">Better Solutions For Your Business</TitleHead>
+        <TitleHead variant="h2">
+          Smart Solutions. Seamless Connections. Boundless Future.
+        </TitleHead>
         <DescriptionText variant="body1">
-          We are team of talented designers making websites with Bootstrap
+          We create smart, integrated solutions, connecting your business to the
+          digital future.
         </DescriptionText>
-        <ButtonStarted variant="contained">Get Started</ButtonStarted>
+        <Link href="/contactUs">
+          <ButtonStarted variant="contained">Let’s Talk</ButtonStarted>
+        </Link>
       </ContentBox>
       <Box>
         <ImageBanner

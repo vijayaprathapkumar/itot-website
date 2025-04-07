@@ -53,7 +53,7 @@ export const TitleHead = styled(Typography)`
     line-height: 46px;
   }
   ${breakpoints.lg} {
-    font-size: 48px;
+    font-size: 38px;
     line-height: 56px;
   }
 `;
@@ -76,19 +76,20 @@ export const DescriptionText = styled(Typography)`
     font-size: 20px;
   }
   ${breakpoints.lg} {
-    font-size: 24px;
+    font-size: 20px;
   }
 `;
 export const ImageBanner = styled(Image)`
   height: 500px;
   width: 500px;
-  animation: sway 2s linear infinite alternate;
+  margin-top: 40px;
+  animation: sway 5s linear infinite alternate;
   @keyframes sway {
     0% {
       transform: translateY(-10px);
     }
     100% {
-      transform: translatey(20px);
+      transform: translatey(40px);
     }
   }
   ${breakpoints.xs} {
