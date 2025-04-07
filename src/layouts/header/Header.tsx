@@ -12,14 +12,12 @@ import {
   TextField,
   Typography,
 } from "@mui/material";
-import { FaInstagramSquare, FaLinkedin, FaPhone } from "react-icons/fa";
-import { IoMail, IoCloseOutline, IoLocationOutline, IoMailUnreadOutline } from "react-icons/io5";
-import { PiDotsNineBold } from "react-icons/pi";
+import { FaInstagramSquare, FaLinkedin } from "react-icons/fa";
+import { IoCloseOutline, IoLocationOutline } from "react-icons/io5";
 import { BiPhoneCall } from "react-icons/bi";
 import Image from "next/image";
 import { useState, useCallback, useEffect, useRef } from "react";
 import {
-  TopBar,
   NavBar,
   LogoWrapper,
   NavItem,
@@ -34,14 +32,8 @@ import {
   SearchBarWrapper,
   SearchInputBox,
   SideBarIconWrapper,
-  TopBarBox,
-  TopBarBoxItem,
-  TopBarAddressWarpper,
-  TopBarAddressItem,
   BoxNavWarpper,
   MenuIcon,
-  FlagImage,
-  TopBarMailItem,
   StyledLink,
   MailIcon,
 } from "./Header.styled";
@@ -50,52 +42,6 @@ import { HiOutlineMailOpen } from "react-icons/hi";
 import Link from "next/link";
 import { menuItems } from "@/config/header/Header";
 import React from "react";
-
-// Top Bar Component
-const TopBarComponent = () => {
-  return (
-    <TopBar>
-      <TopBarBox>
-        <TopBarBoxItem>
-          <FaPhone size={20} color="#fff" style={{ marginTop: 2 }} />
-          <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
-            +65 96212064
-          </Typography>
-        </TopBarBoxItem>
-        <TopBarMailItem>
-          <IoMail size={20} color="#fff" style={{ marginTop: 2 }} />
-          <a
-            href="mailto:sales@itot.sg"
-            style={{ textDecoration: "none", color: "inherit" }}
-            target="_blank"
-          >
-            <Typography sx={{ fontFamily: "Poppins, sans-serif" }}>
-              info@itot.sg
-            </Typography>
-          </a>
-        </TopBarMailItem>
-      </TopBarBox>
-      <TopBarAddressWarpper>
-        <TopBarAddressItem>
-          <FlagImage
-            src={"/images/Header/singapore.webp"}
-            alt="India"
-            height={15}
-            width={22}
-          />
-          <Typography variant="body1">Singapore</Typography>
-          <FlagImage
-            src={"/images/Header/india.png"}
-            alt="India"
-            height={15}
-            width={22}
-          />
-          <Typography variant="body1">India</Typography>
-        </TopBarAddressItem>
-      </TopBarAddressWarpper>
-    </TopBar>
-  );
-};
 
 // NavBar Component
 const NavBarComponent = ({

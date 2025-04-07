@@ -139,7 +139,7 @@ const WhyChooseUs = () => {
               <Box ml={2}>
                 <TitleHead variant="h6">Client-Centric Approach: </TitleHead>
                 <TitleDescription variant="body2">
-                  Our focus is always on our clients' success. We work closely
+                  Our focus is always on our client&apos;s success. We work closely
                   with each client to understand their specific requirements and
                   tailor solutions that deliver measurable results.
                 </TitleDescription>

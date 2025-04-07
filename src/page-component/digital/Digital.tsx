@@ -16,7 +16,6 @@ import {
   ServiceTypo,
   StackBanner,
 } from "./Digital.styled";
-import Link from "next/link";
 
 const Digital = () => {
   const [isVisible, setIsVisible] = useState(false);

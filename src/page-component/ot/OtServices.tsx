@@ -10,16 +10,9 @@ import {
   ServiceItem,
   ArrowBox,
   MainContent,
-  SectionContainer,
   TitleTypography,
   MainImg,
-  MainVideo,
-  SubImg,
 } from "./OtServices.styled";
-import {
-  digitalMarketing,
-  digitalMarketingData,
-} from "@/config/digitalMarketing/DigitalMarketing";
 import { otService, otServiceData } from "@/config/otServices/OtServices";
 
 const OtService = () => {

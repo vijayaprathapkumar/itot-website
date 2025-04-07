@@ -1,34 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import Image from "next/image";
+import { Box, Container, Grid } from "@mui/material";
 import {
-  Box,
-  Container,
-  Grid,
-  List,
-  ListItem,
-  ListItemIcon,
-} from "@mui/material";
-import {
-  CircleCheckIcon,
   DescriptionBodyText,
   DescriptionTypo,
   EnsureBox,
-  GridMain,
-  GridTypo,
   ImageBig,
-  ImageCircle,
-  ImageDot,
   ImageFiveBox,
   ImageFourBox,
-  ImageOneBox,
-  ImageSixBox,
   ImageSrc,
   ImageSub,
-  ImageThreeBox,
-  ImageTwoBox,
-  ListItemTypo,
   MainBox,
   SubHedTypo,
   SuccessHedTypo,
@@ -112,7 +94,7 @@ const WhoWeAre = () => {
                 agile, and future-ready.
                 <br />
                 <br />
-                We understand that in today's rapidly evolving landscape,
+                We understand that in today&apos;s rapidly evolving landscape,
                 businesses need integrated solutions to thrive. Our expertise
                 lies in bridging the gap between digital and physical
                 operations, enabling seamless data flow and optimized
