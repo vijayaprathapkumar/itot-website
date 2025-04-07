@@ -3,22 +3,22 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Box, Container, Grid } from "@mui/material";
 import {
-  DescriptionBodyText,
-  DescriptionTypo,
-  EnsureBox,
+  MainBox,
+  ImageFourBox,
   ImageBig,
   ImageFiveBox,
-  ImageFourBox,
-  ImageSrc,
   ImageSub,
-  MainBox,
-  SubHedTypo,
-  SuccessHedTypo,
+  EnsureBox,
   WhoWeAreBox,
+  ImageSrc,
   WhoWeAreTypo,
-} from "./WhoWeAre.styled";
+  SuccessHedTypo,
+  DescriptionTypo,
+  SubHedTypo,
+  DescriptionBodyText,
+} from "./AboutUs.styled";
 
-const WhoWeAre = () => {
+const AboutUs = () => {
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef<HTMLDivElement>(null);
 
@@ -52,7 +52,7 @@ const WhoWeAre = () => {
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <Box sx={{ marginTop: { md: "390px" } }}>
+            <Box sx={{ marginTop: { md: "90px" } }}>
               <ImageFourBox>
                 <ImageBig
                   src="/images/whoweare/image1.avif"
@@ -92,31 +92,6 @@ const WhoWeAre = () => {
                 optimize resources, and unlock new opportunities for sustainable
                 growth. Our expertise ensures businesses stay competitive,
                 agile, and future-ready.
-                <br />
-                <br />
-                We understand that in today&apos;s rapidly evolving landscape,
-                businesses need integrated solutions to thrive. Our expertise
-                lies in bridging the gap between digital and physical
-                operations, enabling seamless data flow and optimized
-                performance. We deliver comprehensive solutions tailored to meet
-                the unique challenges of each client, driving efficiency,
-                innovation, and sustainable growth.
-                <br />
-                <br />
-                Our approach is rooted in a deep understanding of the synergy
-                between IT and OT. Our OT expertise focuses on digitalizing your
-                physical operations, driving efficiency and sustainability. We
-                provide OT digitalization projects, energy management solutions,
-                building management systems (BMS), manufacturing execution
-                systems (MES), system integration, automation, and digital
-                transformation consultancy.
-                <br />
-                <br />
-                We are committed to building long-term partnerships with our
-                clients, providing reliable and innovative solutions that drive
-                lasting value. Our team of experienced professionals combines
-                technical expertise with a passion for excellence, ensuring that
-                every project is delivered to the highest standards.
               </DescriptionTypo>
               <Box>
                 <SubHedTypo variant="h6">Our Mission</SubHedTypo>
@@ -142,4 +117,4 @@ const WhoWeAre = () => {
   );
 };
 
-export default WhoWeAre;
+export default AboutUs;

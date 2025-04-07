@@ -2,6 +2,7 @@ import breakpoints from "@/themes/breakpoints";
 import { Box, Typography, Button, CardContent } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import Image from "next/image";
+import Link from "next/link";
 
 export const MainBannerBox = styled(Box)`
   background: #f6f8fb;
@@ -177,4 +178,7 @@ export const CardContainer = styled(CardContent)`
     opacity: 1;
     transform: translatex(0);
   }
+`;
+export const CardLink = styled(Link)`
+  text-decoration: none;
 `;

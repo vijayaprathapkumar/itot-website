@@ -1,16 +1,16 @@
 import React from "react";
-import Process from "../process/Process";
 import Digital from "../digital/Digital";
 import BannerItot from "../banner-itot/BannerItot";
-import Itot from "../it-ot/Itot";
+import AboutUs from "../aboutUs/AboutUs";
 
 const HomePage = () => {
   return (
     <>
       <BannerItot />
-      <Itot />
+      {/* <Itot /> */}
       <Digital />
-      <Process />
+      <AboutUs />
+      {/* <Process /> */}
     </>
   );
 };

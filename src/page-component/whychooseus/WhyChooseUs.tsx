@@ -96,11 +96,12 @@ const WhyChooseUs = () => {
                 <ServiceIcon />
               </IconBox>
               <Box ml={2}>
-                <TitleHead variant="h6">Best Services</TitleHead>
+                <TitleHead variant="h6">Expertise:</TitleHead>
                 <TitleDescription variant="body2">
-                  we provide top-notch services tailored to your needs. Our team
-                  ensures high-quality solutions with a focus on innovation,
-                  efficiency, and customer satisfaction.
+                  With years of experience in both IT and OT, our team possesses
+                  the technical knowledge and practical skills to deliver
+                  effective solutions that address the unique needs of each
+                  client.
                 </TitleDescription>
               </Box>
             </Box>
@@ -110,9 +111,50 @@ const WhyChooseUs = () => {
                 <CallSupportIcon />
               </IconBox>
               <Box ml={2}>
-                <TitleHead variant="h6">24/7 Call Support</TitleHead>
+                <TitleHead variant="h6">Innovation:</TitleHead>
                 <TitleDescription variant="body2">
-                  Reliable Assistance Anytime, Anywhere
+                  We are committed to staying at the forefront of technology
+                  trends, continuously exploring new ideas and approaches to
+                  enhance our services and provide cutting-edge solutions.
+                </TitleDescription>
+              </Box>
+            </Box>
+            <Box display="flex">
+              <IconBox>
+                <ServiceIcon />
+              </IconBox>
+              <Box ml={2}>
+                <TitleHead variant="h6">Reliability: </TitleHead>
+                <TitleDescription variant="body2">
+                  We pride ourselves on our reliability and consistency,
+                  ensuring that every project is completed to the highest
+                  standards and within the agreed timeframe.
+                </TitleDescription>
+              </Box>
+            </Box>
+            <Box display="flex">
+              <IconBox>
+                <ServiceIcon />
+              </IconBox>
+              <Box ml={2}>
+                <TitleHead variant="h6">Client-Centric Approach: </TitleHead>
+                <TitleDescription variant="body2">
+                  Our focus is always on our client&apos;s success. We work closely
+                  with each client to understand their specific requirements and
+                  tailor solutions that deliver measurable results.
+                </TitleDescription>
+              </Box>
+            </Box>
+            <Box display="flex">
+              <IconBox>
+                <ServiceIcon />
+              </IconBox>
+              <Box ml={2}>
+                <TitleHead variant="h6">Sustainability: </TitleHead>
+                <TitleDescription variant="body2">
+                  We believe in the importance of sustainable growth and strive
+                  to help our clients achieve their environmental goals through
+                  efficient and eco-friendly solutions.
                 </TitleDescription>
               </Box>
             </Box>

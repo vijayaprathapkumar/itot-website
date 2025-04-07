@@ -198,8 +198,8 @@ export const ImageChooseUs = styled(Image)`
     object-fit: cover;
   }
   ${breakpoints.lg} {
-    height: 700px;
-    width: 700px;
+    height: 500px;
+    width: 500px;
     object-fit: fill;
   }
   ${breakpoints.xl} {
@@ -236,8 +236,8 @@ export const ImageChooseUsBackground = styled("img")`
   }
   ${breakpoints.lg} {
     height: 500px;
-    width: 700px;
-    margin-top: 29%;
+    width: 500px;
+    margin-top: 0%;
   }
 `;
 export const ImageChooseUsBackgroundsub = styled("img")`
@@ -269,8 +269,8 @@ export const ImageChooseUsBackgroundsub = styled("img")`
   }
   ${breakpoints.lg} {
     height: 500px;
-    width: 700px;
-    margin-top: 29%;
+    width: 500px;
+    margin-top: 0%;
   }
 `;
 export const TitleHead = styled(Typography)`
