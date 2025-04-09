@@ -127,7 +127,7 @@ export const BoxNavWarpper = styled(Box)`
     display: none;
   }
 
-  ${breakpoints.lg} {
+  ${breakpoints.md} {
     display: flex;
   }
 
@@ -171,9 +171,8 @@ export const NavLink = styled(Link)`
   text-decoration: none;
   color: #fff;
   font-weight: 800;
-  position:relative;
-  z-index:1;
-
+  position: relative;
+  z-index: 999;
 `;
 
 export const NavItem = styled(Box)`
@@ -211,7 +210,7 @@ export const MenuIcon = styled(Box)`
     display: block;
   }
 
-  ${breakpoints.lg} {
+  ${breakpoints.md} {
     display: none;
   }
 `;
@@ -346,11 +345,7 @@ export const SearchIconWrapper = styled(Box)`
     display: none;
   }
 
-  ${breakpoints.lg} {
-    display: flex;
-  }
-
-  ${breakpoints.xl} {
+  ${breakpoints.md} {
     display: flex;
   }
 `;

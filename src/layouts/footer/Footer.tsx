@@ -114,7 +114,7 @@ const Footer = () => {
               </ListStyled>
               <ListStyled>
                 <ArrowIconStyle />
-                <StyledLink href="/ot-services">Ot Services</StyledLink>
+                <StyledLink href="/ot-services">OT Services</StyledLink>
               </ListStyled>
               <ListStyled>
                 <ArrowIconStyle />
@@ -160,7 +160,7 @@ const Footer = () => {
         <FooterStep>
           <CopyrightTypo>
             Copyright {new Date().getFullYear()} - All Rights Reserved By -{" "}
-            <Link sx={{ color: "", cursor: "pointer" }} href="#">
+            <Link sx={{ color: "rgb(35, 51, 80)", cursor: "pointer", textDecoration:"none" }} href="#">
               ITOT Solutions Pte Ltd
             </Link>
           </CopyrightTypo>

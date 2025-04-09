@@ -57,7 +57,7 @@ const Itot = () => {
     <Box>
       <MainBox>
         <MainHeadText variant="h3">
-          See What Info-Tech Offers Your Business
+          See What ITOT Offers Your Business
         </MainHeadText>
         <BodyText variant="body1">
           Info-Tech provides a one-stop solution for all your HR and Accounting
@@ -67,7 +67,7 @@ const Itot = () => {
         <BodyText variant="body1">
           Experience seamless HR & Accounting software that integrates all
           essential features to accelerate your business operations. With
-          Info-Tech&apos;s software, your entire operations can be automated.
+          ITOT&apos;s software, your entire operations can be automated.
         </BodyText>
       </MainBox>
       <ContainerBox>
@@ -176,7 +176,9 @@ const Itot = () => {
             <HomeAutomationIconBox>
               <IconHomeAutomation />
             </HomeAutomationIconBox>
-            <TypoOtSubtitle variant="body1">Home Automation</TypoOtSubtitle>
+            <TypoOtSubtitle variant="body1">
+              Manufacturing Execution Systems (MES)
+            </TypoOtSubtitle>
           </HomeAutomationBox>
           <IandPAnutomationBox>
             <IandPAnutomationIconBox>
