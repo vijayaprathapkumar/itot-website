@@ -98,7 +98,6 @@ const NavBarComponent = ({
                   sx={{
                     position: "absolute",
                     top: "80%",
-                    left: { lg: 770, xl: 670 },
                     backgroundColor: "white",
                     boxShadow: "0px 4px 10px rgba(0, 0, 0, 0.1)",
                     zIndex: 1,

@@ -83,15 +83,15 @@ export const ImageBanner = styled(Image)`
   height: 500px;
   width: 500px;
   margin-top: 40px;
-  animation: sway 5s linear infinite alternate;
-  @keyframes sway {
-    0% {
-      transform: translateY(-10px);
-    }
-    100% {
-      transform: translatey(40px);
-    }
-  }
+  // animation: sway 5s linear infinite alternate;
+  // @keyframes sway {
+  //   0% {
+  //     transform: translateY(-10px);
+  //   }
+  //   100% {
+  //     transform: translatey(40px);
+  //   }
+  // }
   ${breakpoints.xs} {
     height: 300px;
     width: 300px;
@@ -99,10 +99,12 @@ export const ImageBanner = styled(Image)`
   ${breakpoints.md} {
     height: 400px;
     width: 400px;
+    margin-top: 100px;
   }
   ${breakpoints.lg} {
     height: 500px;
     width: 500px;
+    margin-top: 40px;
   }
   ${breakpoints.xl} {
     height: 500px;

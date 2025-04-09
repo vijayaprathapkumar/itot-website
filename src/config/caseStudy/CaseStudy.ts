@@ -29,4 +29,22 @@ export const caseStudies = [
     img: "/images/case/image-5.jpg",
     path: "/",
   },
+  {
+    category: "Solution",
+    title: "Energy Management for a Large Manufacturing Plant",
+    img: "/images/case/energy.jpg",
+    path: "/",
+  },
+  {
+    category: "Solution",
+    title: "Digitalization of Building Management for a Commercial Complex",
+    img: "/images/case/building.jpg",
+    path: "/",
+  },
+  {
+    category: "Solution",
+    title: "Automation of Production Processes for a Food Processing Company",
+    img: "/images/case/food.jpg",
+    path: "/",
+  },
 ];

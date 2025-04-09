@@ -469,12 +469,12 @@ const Services = () => {
             <OpeningHoursItem>
               <FiClock />
               <Typography variant="body1">
-                Mon - Sat: 10.00 AM - 7.00 PM
+                Mon - Fri: 10.00 AM - 7.00 PM
               </Typography>
             </OpeningHoursItem>
             <OpeningHoursItem>
               <FiClock />
-              <Typography variant="body1">Sun: Closed</Typography>
+              <Typography variant="body1">Sat - Sun: Closed</Typography>
             </OpeningHoursItem>
             <OpeningHoursItem>
               <FiClock />

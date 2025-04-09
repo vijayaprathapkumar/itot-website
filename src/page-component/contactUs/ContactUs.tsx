@@ -60,7 +60,7 @@ export const ContactUs = (props: {
     <ContactMainBox ref={sectionRef} className={isVisible ? "animate" : ""}>
       <SubPanelBox>
         <HeadingStyled>
-          Contact <HeadingSpan>With Us</HeadingSpan>
+          Connect <HeadingSpan>With Us</HeadingSpan>
         </HeadingStyled>
         <Parastyled>
           Unleash your digital potential with ITOT - Start your transformation
@@ -77,7 +77,7 @@ export const ContactUs = (props: {
                 target="_blank"
               >
                 <ContactPara sx={{ fontFamily: "Poppins, sans-serif" }}>
-                  info@itot.sg,
+                  info@itot.sg
                 </ContactPara>
               </a>
             </Box>
@@ -88,7 +88,7 @@ export const ContactUs = (props: {
                 target="_blank"
               >
                 <ContactPara sx={{ fontFamily: "Poppins, sans-serif" }}>
-                  contacts@itot.sg,
+                  contacts@itot.sg
                 </ContactPara>
               </a>
             </Box>
@@ -107,7 +107,7 @@ export const ContactUs = (props: {
         </ContactInfoBox>
         <ContactInfoBox>
           <CallerIcon />
-          <ContactPara>+91 8940030201</ContactPara>
+          <ContactPara>+65 96212064</ContactPara>
         </ContactInfoBox>
 
         <Box display="flex" gap={4} sx={{ marginTop: "50px" }}>

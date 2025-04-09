@@ -4,7 +4,6 @@ import { Box, Card, Grid, Typography } from "@mui/material";
 import React, { useEffect, useRef, useState } from "react";
 import { cards } from "@/config/services/Services";
 import {
-  ButtonExplore,
   CardBox,
   CardContainer,
   CardLink,
@@ -61,9 +60,9 @@ const Digital = () => {
               will maximize engagement and return on investment.
             </DescriptionTypo>
           </Box>
-          <Box sx={{ display: "flex", gap: "30px", marginBottom: "20px" }}>
+          {/* <Box sx={{ display: "flex", gap: "30px", marginBottom: "20px" }}>
             <ButtonExplore>our Services</ButtonExplore>
-          </Box>
+          </Box> */}
         </InfoBox>
         <CardBox>
           <Grid container spacing={3}>

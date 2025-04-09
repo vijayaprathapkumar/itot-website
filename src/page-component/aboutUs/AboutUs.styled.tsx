@@ -262,8 +262,8 @@ export const ImageBig = styled(Image)`
     width: 250px;
   }
   ${breakpoints.md} {
-    height: 450px;
-    width: 330px;
+    height: 350px;
+    width: 350px;
   }
   ${breakpoints.lg} {
     height: 450px;
@@ -283,8 +283,8 @@ export const ImageSub = styled(Image)`
     width: 180px;
   }
   ${breakpoints.md} {
-    height: 300px;
-    width: 270px;
+    height: 220px;
+    width: 220px;
   }
   ${breakpoints.lg} {
     height: 240px;

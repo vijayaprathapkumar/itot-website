@@ -57,7 +57,7 @@ const AboutUs = () => {
                 <ImageBig
                   src="/images/whoweare/image1.avif"
                   alt="Image"
-                  height={600}
+                  height={600}  
                   width={450}
                 />
               </ImageFourBox>

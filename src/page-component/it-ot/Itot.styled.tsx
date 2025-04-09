@@ -7,10 +7,11 @@ import { LiaCubesSolid } from "react-icons/lia";
 import { LuRefreshCw } from "react-icons/lu";
 import { BsBuilding } from "react-icons/bs";
 import { MdSettingsSuggest } from "react-icons/md";
-import { TbHomeSignal } from "react-icons/tb";
+
 import { TbAutomation } from "react-icons/tb";
 import { MdOutlineEnergySavingsLeaf } from "react-icons/md";
 import breakpoints from "@/themes/breakpoints";
+import { GiGears } from "react-icons/gi";
 
 export const MainHeadText = styled(Typography)`
   color: #323232;
@@ -101,9 +102,9 @@ export const ConnectCircleImage = styled(Image)`
   }
   ${breakpoints.md} {
     height: 215px;
-    width: 100px;
-    margin-left: -85px;
-    margin-top: 125px;
+    width: 120px;
+    margin-left: -95px;
+    margin-top: 126px;
   }
 `;
 export const ServiceItText = styled(Typography)`
@@ -161,7 +162,7 @@ export const AbbrevationTextIt = styled(Typography)`
   ${breakpoints.lg} {
     font-size: 18px;
     width: 100%;
-    margin-left: -10px;
+    margin-left: -20px;
   }
 `;
 export const AbbrevationTextOt = styled(Typography)`
@@ -635,7 +636,8 @@ export const HomeAutomationIconBox = styled(Box)`
   border: 1px solid #fff;
   border-radius: 50px;
   width: 60px;
-  padding: 10px 5px;
+  height: 60px;
+  padding: 10px 10px;
   margin-right: 17px;
   background: rgb(246, 240, 210);
   ${breakpoints.xs} {
@@ -645,14 +647,14 @@ export const HomeAutomationIconBox = styled(Box)`
     width: 60px;
   }
 `;
-export const IconHomeAutomation = styled(TbHomeSignal)`
+export const IconHomeAutomation = styled(GiGears)`
   font-size: 30px;
   color: #800000;
   ${breakpoints.xs} {
     font-size: 20px;
   }
   ${breakpoints.md} {
-    font-size: 35px;
+    font-size: 30px;
   }
 `;
 export const IandPAnutomationBox = styled(Box)`
