@@ -44,7 +44,7 @@ export const ImageStyle = styled(Image)`
   }
   ${breakpoints.lg} {
     height: 90px;
-    width: 90px;
+    width: 110px;
   }
   ${breakpoints.xl} {
     height: 100px;

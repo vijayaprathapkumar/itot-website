@@ -63,7 +63,7 @@ const Footer = () => {
           <YAxisPlusAnimateBox>
             <LogoStyle>
               <ImageStyle
-                src="/images/logo/itot-logo.png"
+                src="/images/logo/logo.png"
                 alt="No logo"
                 height={80}
                 width={80}
@@ -165,7 +165,7 @@ const Footer = () => {
             </Link>
           </CopyrightTypo>
           <Box>
-            <LinkBox href="#">Privacy Policy</LinkBox>
+            <LinkBox href="/privacyPolicy">Privacy Policy</LinkBox>
           </Box>
         </FooterStep>
       </ContainerBox>

@@ -50,7 +50,7 @@ const OtService = () => {
 
   return (
     <Box
-      sx={{ padding: { xs: 5, md: 7 } }}
+      sx={{ padding: { xs: 5, md: 5, lg: 7 } }}
       ref={sectionRef}
       className={isVisible ? "animate" : ""}
     >

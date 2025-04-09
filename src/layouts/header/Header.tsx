@@ -71,9 +71,9 @@ const NavBarComponent = ({
         <LogoWrapper>
           <Link href="/">
             <Image
-              src="/images/logo/itot-logo.png"
+              src="/images/logo/logo.png"
               alt="Logo"
-              width={70}
+              width={110}
               height={70}
             />
           </Link>
@@ -282,10 +282,10 @@ const SideBarComponent = ({
             >
               <SideBarLogoWrapper>
                 <Image
-                  src="/images/logo/itot-logo.png"
+                  src="/images/logo/logo.png"
                   alt="Logo"
-                  width={100}
-                  height={100}
+                  width={110}
+                  height={90}
                 />
               </SideBarLogoWrapper>
               <SideBarContent variant="body1">
