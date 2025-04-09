@@ -38,6 +38,12 @@ export const Sidebar = styled(Box)`
   }
   ${breakpoints.md} {
     min-height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  ${breakpoints.lg} {
+    min-height: 100vh;
     width: 120%;
     position: sticky;
     top: 0;

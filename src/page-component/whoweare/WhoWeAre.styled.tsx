@@ -135,8 +135,11 @@ export const ImageFourBox = styled(Box)`
   ${breakpoints.xs} {
     left: 8%;
   }
+  ${breakpoints.md} {
+    left: 3%;
+  }
   ${breakpoints.lg} {
-    left: 5%;
+    left: 3%;
   }
 `;
 export const ImageFiveBox = styled(Box)`
@@ -161,12 +164,12 @@ export const ImageFiveBox = styled(Box)`
     margin-top: 15%;
   }
   ${breakpoints.md} {
-    left: 27%;
+    left: 24%;
     margin-top: 15%;
   }
   ${breakpoints.lg} {
-    left: 27%;
-    margin-top: 13.5%;
+    left: 25%;
+    margin-top: 14.5%;
   }
 `;
 export const ImageSixBox = styled(Box)`
@@ -261,8 +264,8 @@ export const ImageBig = styled(Image)`
     width: 250px;
   }
   ${breakpoints.md} {
-    height: 450px;
-    width: 330px;
+    height: 350px;
+    width: 350px;
   }
   ${breakpoints.lg} {
     height: 450px;
@@ -282,8 +285,8 @@ export const ImageSub = styled(Image)`
     width: 180px;
   }
   ${breakpoints.md} {
-    height: 300px;
-    width: 270px;
+    height: 220px;
+    width: 220px;
   }
   ${breakpoints.lg} {
     height: 240px;

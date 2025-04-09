@@ -7,6 +7,8 @@ const ContactPage = () => {
   const [formData, setFormData] = useState({
     firstName: "",
     email: "",
+    companyName: "",
+    CompanyNumber: "",
     message: "",
   });
 
@@ -21,18 +23,20 @@ const ContactPage = () => {
   const handleSubmit = async (e: { preventDefault: () => void }) => {
     e.preventDefault();
     try {
-      const response = await fetch("/api/send-emaill", {
+      const response = await fetch("/api/send-email", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          to: formData.email,
+          to: "contacts@itot.sg",
           subject: "Appointment Request",
           message: `
             First Name: ${formData.firstName}
             Email: ${formData.email}
             Message: ${formData.message}
+            Company Name: ${formData.companyName}
+            Company Number: ${formData.CompanyNumber}
           `,
         }),
       });
@@ -44,6 +48,8 @@ const ContactPage = () => {
           firstName: "",
           email: "",
           message: "",
+          companyName: "",
+          CompanyNumber: "",
         });
       } else {
         alert("Error submitting form: " + result.error);
@@ -54,7 +60,13 @@ const ContactPage = () => {
     }
   };
 
-  return <ContactUs handleSubmit={handleSubmit} handleChange={handleChange} formData={formData} />;
+  return (
+    <ContactUs
+      handleSubmit={handleSubmit}
+      handleChange={handleChange}
+      formData={formData}
+    />
+  );
 };
 
 export default ContactPage;

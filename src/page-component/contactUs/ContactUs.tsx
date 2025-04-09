@@ -158,7 +158,7 @@ export const ContactUs = (props: {
                 fullWidth
                 label="Company Name*"
                 variant="outlined"
-                name="firstName"
+                name="companyName"
                 value={formData.companyName}
                 onChange={handleChange}
               />
@@ -166,8 +166,8 @@ export const ContactUs = (props: {
                 fullWidth
                 label="Company Number*"
                 variant="outlined"
-                name="email"
-                value={formData.companyNumber}
+                name="CompanyNumber"
+                value={formData.CompanyNumber}
                 onChange={handleChange}
               />
             </InputRow>

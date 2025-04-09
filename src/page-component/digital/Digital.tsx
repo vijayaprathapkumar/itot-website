@@ -55,9 +55,12 @@ const Digital = () => {
           </Box>
           <Box>
             <DescriptionTypo variant="body1">
-              ITOT offers professional digital marketing solutions that are
-              customized for every company, guaranteeing that focused campaigns
-              will maximize engagement and return on investment.
+              We at ITOT are experts at providing cutting-edge OT (Operational
+              Technology), IT (Information Technology), and Digital Marketing
+              solutions that are customized to match the particular requirements
+              of companies in several sectors. Organizations may boost their
+              digital presence, streamline operations, and spur growth with our
+              all-inclusive services.
             </DescriptionTypo>
           </Box>
           {/* <Box sx={{ display: "flex", gap: "30px", marginBottom: "20px" }}>
