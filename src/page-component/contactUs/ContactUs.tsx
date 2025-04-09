@@ -153,6 +153,24 @@ export const ContactUs = (props: {
                 onChange={handleChange}
               />
             </InputRow>
+            <InputRow>
+              <TextField
+                fullWidth
+                label="Company Name*"
+                variant="outlined"
+                name="firstName"
+                value={formData.companyName}
+                onChange={handleChange}
+              />
+              <TextField
+                fullWidth
+                label="Company Number*"
+                variant="outlined"
+                name="email"
+                value={formData.companyNumber}
+                onChange={handleChange}
+              />
+            </InputRow>
             <TextAreaStyle
               label="Enter Your Message here"
               fullWidth
