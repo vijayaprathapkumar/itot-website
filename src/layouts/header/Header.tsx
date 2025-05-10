@@ -73,8 +73,8 @@ const NavBarComponent = ({
             <Image
               src="/images/logo/logo.png"
               alt="Logo"
-              width={110}
-              height={70}
+              width={90}
+              height={30}
             />
           </Link>
           <MenuIcon>
@@ -151,10 +151,10 @@ const NavBarComponent = ({
             >
               <Box sx={{ display: "flex", alignItems: "center" }}>
                 <Image
-                  src="/images/logo/itot-logo.png"
+                  src="/images/logo/logo.png"
                   alt="Logo"
-                  width={90}
-                  height={90}
+                  width={70}
+                  height={30}
                 />
               </Box>
               <Box
@@ -284,8 +284,8 @@ const SideBarComponent = ({
                 <Image
                   src="/images/logo/logo.png"
                   alt="Logo"
-                  width={110}
-                  height={90}
+                  width={70}
+                  height={30}
                 />
               </SideBarLogoWrapper>
               <SideBarContent variant="body1">

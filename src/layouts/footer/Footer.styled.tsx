@@ -39,16 +39,16 @@ export const ImageStyle = styled(Image)`
   margin-top: -10px;
 
   ${breakpoints.xs} {
-    height: 80px;
-    width: 80px;
+    height: 20px;
+    width: 50px;
   }
   ${breakpoints.lg} {
-    height: 90px;
-    width: 110px;
+    height: 30px;
+    width: 80px;
   }
   ${breakpoints.xl} {
-    height: 100px;
-    width: 100px;
+    height: 30px;
+    width: 70px;
   }
 `;
 

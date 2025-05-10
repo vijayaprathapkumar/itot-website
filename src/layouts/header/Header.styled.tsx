@@ -154,6 +154,7 @@ export const LogoWrapper = styled(Box)`
   }
   ${breakpoints.md} {
     margin-left: -10px;
+    margin-top: 10px;
   }
 `;
 
@@ -203,7 +204,7 @@ export const NavItem = styled(Box)`
 
 export const MenuIcon = styled(Box)`
   position: absolute;
-  right: 20px;
+  right: 5px;
   font-size: 40px;
   color: #fff;
   ${breakpoints.xs} {
@@ -292,6 +293,7 @@ export const SideBarContent = styled(Typography)`
   font-weight: 400;
   line-height: 28px;
   color: #ffffffcc;
+  margin-top: 10px;
 `;
 
 export const ContactWrapper = styled(Box)`
