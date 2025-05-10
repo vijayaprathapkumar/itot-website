@@ -60,7 +60,7 @@ const Itot = () => {
           See What ITOT Offers Your Business
         </MainHeadText>
         <BodyText variant="body1">
-          Info-Tech provides a one-stop solution for all your HR and Accounting
+          ITOT provides a one-stop solution for all your HR and Accounting
           needs. Our HR Software & Accounting Software enhances productivity for
           businesses by streamlining their processes.
         </BodyText>
