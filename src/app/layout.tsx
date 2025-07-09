@@ -28,7 +28,22 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <link rel="icon" href="/images/logo/genpixels.png" /> */}
+        <title>ITOT</title>
+        <meta
+          name="title"
+          content="Smart Solutions. Seamless Connections. Boundless Future."
+        />
+        <meta
+          name="description"
+          content="We create smart&#44; integrated solutions&#44; connecting your business to the digital future."
+        />
+        <meta
+          name="keywords"
+          content="IT services, OT services, digital marketing services, seo engine optimization, facebook advertising management, seo performance marketing, google adwords advertising, smm marketing, search optimization services"
+        />
+        <meta name="robots" content="index, follow" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="icon" href="/images/logo/logo.png" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <AppRouterCacheProvider>
