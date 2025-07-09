@@ -45,6 +45,18 @@ export default function RootLayout({
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="icon" href="/images/logo/logo.png" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "http://www.schema.org",
+              "@type": "Corporation",
+              name: "ITOT",
+              url: "https://www.itot.sg/",
+              logo: "/images/logo/logo.png"
+            }),
+          }}
+        />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {/* Google Analytics Script */}
