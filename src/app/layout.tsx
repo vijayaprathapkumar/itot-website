@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import MainLayout from "@/layouts/MainLayout";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -46,6 +47,23 @@ export default function RootLayout({
         <link rel="icon" href="/images/logo/logo.png" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        {/* Google Analytics Script */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-L6QPGZ5LGJ"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-L6QPGZ5LGJ');
+            `,
+          }}
+        />
         <AppRouterCacheProvider>
           <MainLayout>{children}</MainLayout>
         </AppRouterCacheProvider>
