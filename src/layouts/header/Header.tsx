@@ -369,7 +369,7 @@ const SideBarComponent = ({
                         fontSize={"14px"}
                         fontWeight={600}
                       >
-                        23,Fernvale Road, Singapore, 797638
+                        60 Paya Lebar Road, <br /> #06-28 Paya Lebar Square, <br /> Singapore 409051
                       </Typography>
                     </Box>
                   </Box>
@@ -390,12 +390,6 @@ const SideBarComponent = ({
                     target="_blank"
                   >
                     <FaLinkedin size={40} cursor={"pointer"} />
-                  </StyledLink>
-                  <StyledLink
-                    href="https://www.instagram.com/gen_pixels?igsh=aXQ3bjF6bWJsMjF6&utm_source=qr"
-                    target="_blank"
-                  >
-                    <FaInstagramSquare size={40} cursor={"pointer"} />
                   </StyledLink>
                 </Box>
               </ContactWrapper>

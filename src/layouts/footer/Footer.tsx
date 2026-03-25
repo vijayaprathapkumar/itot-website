@@ -84,10 +84,10 @@ const Footer = () => {
               </CallIconWrapper>
               <Box sx={{ marginLeft: "10px" }}>
                 <CallTypoStyled>Address</CallTypoStyled>
-                <NumberTypoStyled> ITOT Solutions Pte Ltd</NumberTypoStyled>
+                <NumberTypoStyled> ITOT Solutions Pte Ltd,</NumberTypoStyled>
                 <NumberTypoStyled>
-                  {" "}
-                  23,Fernvale Road <br /> #04-15 <br /> Singapore
+                  {" "}	
+                  60 Paya Lebar Road, <br /> #06-28 Paya Lebar Square, <br /> Singapore 409051 
                 </NumberTypoStyled>
               </Box>
             </Box>
@@ -138,19 +138,11 @@ const Footer = () => {
                   </IconLists> */}
                 </StyledLink>
                 <StyledLink
-                  href="https://www.linkedin.com/company/genpixels-tech-pvt-ltd"
+                  href="https://www.linkedin.com/company/itot-solutions-pte-ltd/"
                   target="_blank"
                 >
                   <IconLists>
                     <FaLinkedinIn />
-                  </IconLists>
-                </StyledLink>
-                <StyledLink
-                  href="https://www.instagram.com/gen_pixels?igsh=aXQ3bjF6bWJsMjF6&utm_source=qr"
-                  target="_blank"
-                >
-                  <IconLists>
-                    <FaInstagram />
                   </IconLists>
                 </StyledLink>
               </IconMainUl>

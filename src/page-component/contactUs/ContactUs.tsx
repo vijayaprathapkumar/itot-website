@@ -116,7 +116,7 @@ export const ContactUs = (props: {
               <LocationHeading>Office Location</LocationHeading>
               <ArrowDownwardOutlinedIcon sx={{ marginTop: "-15px" }} />
             </ContactInfoBox>
-            <LocationPara>23,Fernvale Road, Singapore, 797638</LocationPara>
+            <LocationPara>60 Paya Lebar Road, <br /> #06-28 Paya Lebar Square, <br /> Singapore 409051</LocationPara>
           </Box>
           {/* <Box>
             <ContactInfoBox>
