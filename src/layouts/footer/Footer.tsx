@@ -28,7 +28,6 @@ import {
 import { Box, Link } from "@mui/material";
 import { BiPhoneCall } from "react-icons/bi";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { FaInstagram } from "react-icons/fa";
 import { IoLocationOutline } from "react-icons/io5";
 
 const Footer = () => {
