@@ -62,7 +62,7 @@ const Footer = () => {
           <YAxisPlusAnimateBox>
             <LogoStyle>
               <ImageStyle
-                src="/images/logo/logo.png"
+                src="/images/logo/logo-new.png"
                 alt="No logo"
                 height={80}
                 width={80}

@@ -71,10 +71,11 @@ const NavBarComponent = ({
         <LogoWrapper>
           <Link href="/">
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo-new.png"
               alt="Logo"
               width={90}
               height={30}
+              className="object-contain"
             />
           </Link>
           <MenuIcon>
